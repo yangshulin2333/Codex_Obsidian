@@ -10,7 +10,7 @@ updated: 2026-10-10
 
 # Obsidian Git 每 30 分钟同步说明
 
-用户已选择公开 GitHub 仓库，并要求整个笔记库每 30 分钟同步。公开仓库已创建：[yangshulin2333/Codex_Obsidian](https://github.com/yangshulin2333/Codex_Obsidian)。**上传范围已确认，首次上传与启用定时同步正在处理**；完成后以本页验收结果为准。
+公开仓库：[yangshulin2333/Codex_Obsidian](https://github.com/yangshulin2333/Codex_Obsidian)。**首次上传已成功，30 分钟同步配置已保存，但自动运行尚未验证通过。** 本页保留未完成状态，不能当作定时上传已正常工作的证明。
 
 ## 已确认的公开范围
 
@@ -29,9 +29,9 @@ updated: 2026-10-10
 
 GitHub 普通 Git 阻止超过 100 MiB 的单文件。需要按 [[../../../70_LLM_Wiki 知识库/Vault/Git 远端同步前审计与资产边界|现有资产边界记录]] 先确认处理方式：[GitHub 官方大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)。
 
-## 准备采用的插件设置
+## 已保存的插件设置
 
-以下是待完成上传边界与首次推送后应用的设置，不是已经生效的运行状态：
+以下字段已保存到本机插件 `data.json`；保留原有通知和界面偏好。配置值与实际定时器运行状态需要分别验证：
 
 ```json
 {
@@ -56,9 +56,19 @@ GitHub 普通 Git 阻止超过 100 MiB 的单文件。需要按 [[../../../70_LL
 
 - [x] 上传范围、旧历史保留位置和忽略规则已确认。
 - [x] 正常 Git 凭据身份与目标 GitHub 所有者一致。
-- [ ] 本地 `main` 跟踪 `origin/main`，首次推送完成。
-- [ ] GitHub 仓库公开，远端 HEAD 与本地 HEAD 一致。
+- [x] 本地 `main` 跟踪 `origin/main`，首次推送完成。
+- [x] GitHub 仓库公开，远端 HEAD 与本地 HEAD 已核对。
 - [ ] 插件设置实际加载，30 分钟周期生效且没有暂停。
-- [ ] 同步说明更新为实际结果，并记录旧历史恢复位置。
+- [x] 同步说明记录实际结果与旧历史恢复位置。
 
 插件官方入口：[Obsidian Git](https://github.com/Vinzent03/obsidian-git)。返回 [[README|Xeno 工作流入口]]。
+
+## 自动同步实际验证（2026-10-10）
+
+首次推送的提交为 `f979e52b884bee197b9c0b587835d1fe083bd762`。在 10:30:27–10:32:08 期间，通过文件配置暂用 1 分钟周期，并修改本页作为待同步内容；100 秒内未检测到插件自动生成提交。结束后已恢复 30 分钟配置和原自动提交消息偏好，测试改动由正常 Git 命令提交和推送。
+
+用户按 Esc 停止 Computer Use 后，本轮没有再进行界面操作。插件源码和 Obsidian 配置事件链支持修改文件后自动重载，但这只是静态依据。暂停状态存储在 Obsidian LocalStorage，当前未实测；也未证明定时器已创建，不能从 JSON 数值为 30 推断自动同步已运行。
+
+后续需要在 Obsidian 中核对 Git 插件是否已初始化、自动操作是否暂停、实际 Git 可执行路径及错误信息，再完成一次自动提交/推送测试。原错误通知偏好仍保持关闭。新电脑需要独立配置 Git 登录和本地定时设置；插件本地配置文件不参与公开同步。
+
+本机证据：`C:\Users\long001\Documents\ChatGPT\Codex_X\obsidian-auto-sync-verification-20261010.json`。已有首次上传与手动同步能力不受这项待验证结论影响。
