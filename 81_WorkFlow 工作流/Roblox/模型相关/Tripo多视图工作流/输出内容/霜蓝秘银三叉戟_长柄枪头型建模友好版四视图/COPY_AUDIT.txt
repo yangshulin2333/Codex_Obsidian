@@ -1,0 +1,36 @@
+created_at: 2026-06-23
+workflow: Tripo model-friendly multi-view weapon reference generation
+weapon: frost_blue_mithril_trident
+type: polearm_trident
+mode: model_friendly_four_view
+
+source_art_four_view_dir:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\霜蓝秘银三叉戟_长柄枪头型四视图
+
+generated_front_source:
+C:\Users\14176\.codex\generated_images\019ef338-d929-75c3-992a-7a1ceb3acd6a\ig_0f4171157055c1a5016a3a60853560819187aad8cd3630331e.png
+
+front_normalization:
+The generated front image was 941x1672. It was normalized to 940x1672 to match back / left / right.
+Original generated copy is kept under _source_originals.
+
+generated_back_source:
+C:\Users\14176\.codex\generated_images\019ef338-d929-75c3-992a-7a1ceb3acd6a\ig_01f27d8007c70c5e016a3a60ec15ec8191887ed021d293d7e7.png
+
+generated_left_source:
+C:\Users\14176\.codex\generated_images\019ef338-d929-75c3-992a-7a1ceb3acd6a\ig_01f27d8007c70c5e016a3a613ef75c8191a2ad1a5cf574d00b.png
+
+right_generation:
+created by horizontal mirror from frost_blue_mithril_trident_model_friendly_left.png
+
+final_outputs:
+frost_blue_mithril_trident_model_friendly_front.png
+frost_blue_mithril_trident_model_friendly_back.png
+frost_blue_mithril_trident_model_friendly_left.png
+frost_blue_mithril_trident_model_friendly_right.png
+frost_blue_mithril_trident_model_friendly_contact_sheet.png
+
+notes:
+This run was created after Tripo generated a weak gray fragmented model from the more decorative four-view set.
+The goal is structure readability, not maximum visual detail.
+No Roblox FBX / GLB packaging was performed.

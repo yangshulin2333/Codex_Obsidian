@@ -1,0 +1,108 @@
+return {
+	[80] = {
+		id = 80,
+		g_type = "bp",
+		goods_id = 3466535824,
+		name = "战令购买",
+		price = 399,
+		limit = 1,
+	},
+	[71] = {
+		id = 71,
+		g_type = "gamepass_1",
+		goods_id = 3415290728,
+		args = {
+			6,
+		},
+		name = "UnlockRelics3",
+		price = 125,
+		limit = 1,
+	},
+	[72] = {
+		id = 72,
+		g_type = "scroll",
+		name = "Dark Scroll",
+		price = 399,
+		goods_id = 3431902761,
+	},
+	[73] = {
+		id = 73,
+		g_type = "halloweenPack",
+		reward = {
+			{
+				2,
+				152,
+				1,
+			},
+			{
+				4,
+				47,
+				1,
+			},
+		},
+		goods_id = 3443210582,
+		name = "Halloween Pack",
+		price = 1199,
+		limit = 1,
+	},
+	[74] = {
+		id = 74,
+		g_type = "gems",
+		args = {
+			50000,
+		},
+		icon = "rbxassetid://139416571321069",
+		name = "Tiny Gems!",
+		price = 29,
+		goods_id = 3447326945,
+	},
+	[75] = {
+		id = 75,
+		args = {
+			500000,
+		},
+		goods_id = 3447327251,
+		price = 199,
+		name = "Small Gems!",
+		icon = "rbxassetid://85517449884835",
+		g_type = "gems",
+	},
+	[76] = {
+		id = 76,
+		goods_id = 3447327407,
+		g_type = "gems",
+		price = 499,
+		name = "Medium Gems!",
+		icon = "rbxassetid://92321847504324",
+		args = {
+			1500000,
+		},
+	},
+	[77] = {
+		id = 77,
+		args = {
+			5000000,
+		},
+		goods_id = 3447327529,
+		price = 999,
+		name = "Large Gems!",
+		icon = "rbxassetid://137073974454788",
+		g_type = "gems",
+	},
+	[78] = {
+		id = 78,
+		limit = 1,
+		g_type = "eternalBP",
+		name = "HalloweenBP",
+		price = 399,
+		goods_id = 3454105457,
+	},
+	[79] = {
+		id = 79,
+		g_type = "eternalCoins",
+		goods_id = 3454105785,
+		name = "DoubleHalloweenCoins",
+		price = 125,
+		limit = 1,
+	},
+}

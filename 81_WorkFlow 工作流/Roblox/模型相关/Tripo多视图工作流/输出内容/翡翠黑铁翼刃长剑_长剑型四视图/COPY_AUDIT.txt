@@ -1,0 +1,38 @@
+created_at: 2026-06-23
+workflow: Tripo multi-view weapon reference image generation
+generation_route: built-in image_gen
+
+formal_output_dir:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\翡翠黑铁翼刃长剑_长剑型四视图
+
+accepted_front_source:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\翡翠黑铁翼刃长剑_长剑型正视图\emerald_blackiron_wing_sword_front_candidate_01.png
+
+generated_back_source:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_00aeaae292d47c51016a3a5e4efa90819ab470b6c7e1ca16f2.png
+
+generated_left_source_rejected:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_00aeaae292d47c51016a3a5eb799b8819aa36823bf5834b755.png
+
+generated_left_source_approved:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_066d2a7e4f616bef016a3a635f677c819ba685dc3fb5697623.png
+
+right_generation:
+emerald_blackiron_wing_sword_right.png was mirrored from approved strict-90 emerald_blackiron_wing_sword_left.png.
+
+formal_files:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\翡翠黑铁翼刃长剑_长剑型四视图\emerald_blackiron_wing_sword_front.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\翡翠黑铁翼刃长剑_长剑型四视图\emerald_blackiron_wing_sword_back.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\翡翠黑铁翼刃长剑_长剑型四视图\emerald_blackiron_wing_sword_left.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\翡翠黑铁翼刃长剑_长剑型四视图\emerald_blackiron_wing_sword_right.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\翡翠黑铁翼刃长剑_长剑型四视图\emerald_blackiron_wing_sword_contact_sheet.png
+
+visual_gate:
+front approved by user.
+back matches same model identity and emerald/blackened-iron palette.
+left_candidate_01 was rejected because it was not a strict perpendicular 90-degree side view.
+left_candidate_02_strict_90 is the approved side profile.
+right is mirrored from approved strict-90 left side.
+
+hard_boundary:
+This run creates Tripo / 3D AI reference images only. No Roblox FBX / GLB packaging was executed.

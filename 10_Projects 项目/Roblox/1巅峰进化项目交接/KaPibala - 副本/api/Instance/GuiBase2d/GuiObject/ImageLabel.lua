@@ -1,0 +1,12 @@
+---@class ImageLabel:GuiObject @ImageLabel 会渲染一个附有图像的矩形，和 Frame 类似。该图像必须为上传到 Roblox 网页的贴花。图像的显示可以通过 ImageLabel.ImageColor3 以及ImageLable/ImageTransparency 属性来进行操纵。如想只显示图像，将矩形框隐藏起来，可将 GuiObject.BackgroundTransparency 设置为 1 。
+---@field ImageColor3 Color3 @决定了渲染图像的上色方式.
+---@field ImageRectOffset Vector2 @待显示的图片子区域的偏移量（以像素为单位）
+---@field ImageRectSize Vector2 @决定待显示的图片子区域的尺寸（以像素为单位）。
+---@field ImageTransparency number @决定一个被渲染的图像的透明度
+---@field IsLoaded boolean @指示图像是否已从 Roblox 网站加载完毕。
+---@field ScaleType ScaleType @决定当图像显示在一个与自己的尺寸不一样的 UI 元素之中时该如何进行缩放。
+---@field SliceCenter Rect @决定九宫格图片的中心。
+---@field SliceScale number @按指定比例对九宫格边缘进行缩放
+---@field TileSize UDim2 @设置 ImageLabel 的平铺大小。
+---@field Image string @UI 元素所显示的图像内容。
+local module = {}

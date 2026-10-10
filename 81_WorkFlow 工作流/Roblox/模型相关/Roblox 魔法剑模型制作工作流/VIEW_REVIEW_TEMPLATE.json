@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "assetName": "replace_with_asset_name",
+  "uploadViewMode": "Eight",
+  "axial": {
+    "sourceMode": "same_asset_ai",
+    "sameAssetSourcesOnly": false,
+    "crossAssetAxialReferenceUsed": false,
+    "failedCandidateUsedAsReference": false,
+    "topVisualApproved": false,
+    "bottomVisualApproved": false,
+    "surfaceOwnershipApproved": false,
+    "pairConsistencyApproved": false,
+    "topReferenceImages": [
+      "front.png",
+      "left.png"
+    ],
+    "bottomReferenceImages": [
+      "front.png",
+      "left.png"
+    ],
+    "proxyEvidence": "",
+    "topAttempts": 0,
+    "bottomAttempts": 0,
+    "reviewer": "",
+    "reviewedAt": ""
+  }
+}

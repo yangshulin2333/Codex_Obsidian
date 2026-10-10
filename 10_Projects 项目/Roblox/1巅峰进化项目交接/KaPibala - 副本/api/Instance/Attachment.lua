@@ -1,0 +1,13 @@
+---@class Attachment:Instance @附件定义相对于父BasePart的点和方向。偏移量存储在CFrame属性中。偏移也可以通过其他属性设置，例如WorldCFrame。
+---@field Axis Vector3 @表示X轴相对于附件的Attachment.Rotation的方向，其单位为Vector3，长度为1。
+---@field CFrame CFrame @表示附件的CFrame偏移量。
+---@field Orientation Vector3 @一个Vector3，它描述附件相对于其父对象的方向的方向（以度为单位）。旋转以Z，X，Y顺序应用。
+---@field Position Vector3 @一个Vector3，它描述附件相对于其父对象的位置和方向的位置偏移。
+---@field SecondaryAxis Vector3 @表示Y轴相对于附件的Attachment.Rotation的方向，单位为Vector3，长度为1。
+---@field Visible boolean @切换游戏中附件的可见性。
+---@field WorldAxis Vector3 @表示附件的附件/ Axis | X-Axis相对于世界的方向，为unitDataType / Vector3`，长度为1
+---@field WorldCFrame CFrame @描述世界空间坐标中附件的精确CFrame
+---@field WorldOrientation Vector3 @描述附件相对于世界（而不是附件的父对象）相对于世界的方向（以度为单位）。
+---@field WorldPosition Vector3 @描述附件相对于世界的位置，而不是附件的父级
+---@field WorldSecondaryAxis Vector3 @以长度为1的单位Vector3表示附件的Y轴相对于世界的方向。
+local module = {}

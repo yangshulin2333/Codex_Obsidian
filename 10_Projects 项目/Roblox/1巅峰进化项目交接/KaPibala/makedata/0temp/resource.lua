@@ -1,0 +1,75 @@
+return {
+	[1]={
+		id=1,
+		name="Player Exp",
+		icon="rbxassetid://77799429334242",
+		quality=2,
+	},
+	[2]={
+		name="Gems",
+		id=2,
+		icon="rbxassetid://134804226826116",
+		quality=3,
+	},
+	[3]={
+		quality=1,
+		id=3,
+		icon="rbxassetid://74187092935619",
+		name="Coins",
+	},
+	[4]={
+		quality=3,
+		id=4,
+		icon="rbxassetid://91295764448562",
+		name="Boosts",
+	},
+	[5]={
+		name="Equip Pet +1",
+		id=5,
+		icon="rbxassetid://96365969326770",
+		quality=5,
+	},
+	[6]={
+		id=6,
+		desc="Use to spin the Limited Wheel",
+		name="Ticket",
+		icon="rbxassetid://87604884027320",
+		quality=4,
+	},
+	[7]={
+		quality=2,
+		id=7,
+		icon="rbxassetid://122033116128778",
+		name="Limit Coins",
+	},
+	[8]={
+		quality=3,
+		id=8,
+		icon="rbxassetid://104508008016608",
+		name="Random Boosts",
+	},
+	[9]={
+		icon="rbxassetid://121590499641928",
+		id=9,
+		quality=3,
+		name="Eternal Exp",
+	},
+	[10]={
+		id=10,
+		name="Activated +1",
+		icon="rbxassetid://87509289937499",
+		quality=5,
+	},
+	[11]={
+		quality=2,
+		id=11,
+		icon="rbxassetid://72438327349571",
+		name="Guild Coin",
+	},
+	[12]={
+		quality=2,
+		id=12,
+		icon="rbxassetid://106909104615748",
+		name="PVP Coin",
+	},
+}

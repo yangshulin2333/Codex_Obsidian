@@ -1,0 +1,39 @@
+Purple Obsidian Scythe Same-Shape Four Views Copy Audit
+created_at: 2026-06-22
+
+Built-in image_gen default folder:
+C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c
+
+Copied final imagegen outputs:
+
+front
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_08494c835bb36060016a39274c3488819a98ab2e1f6dec48af.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫曜月影战镰_同款外形四视图\purple_obsidian_scythe_front.png
+
+back
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_0d55e6f76248c91f016a3927bd3454819b889da2ee731dda7e.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫曜月影战镰_同款外形四视图\purple_obsidian_scythe_back.png
+
+left
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_0e7b5051e65a257f016a392839bd40819baae5e5fd53d23cc5.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫曜月影战镰_同款外形四视图\purple_obsidian_scythe_left.png
+
+Local post-processing:
+
+right
+source: purple_obsidian_scythe_left.png
+operation: horizontal mirror
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫曜月影战镰_同款外形四视图\purple_obsidian_scythe_right.png
+
+contact_sheet
+source images: front, back, left, right
+operation: 2x2 local contact sheet
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫曜月影战镰_同款外形四视图\purple_obsidian_scythe_contact_sheet.png
+
+Visual check:
+- front/back: same weapon family, same long-handle ratio, same purple skin language
+- left/right: true thin side profile; right mirrored from left
+- no text, UI, character, hand, chain, serrations, new spikes, or bulky triangular filler plate
+
+Scope:
+This run generated Tripo / 3D AI weapon reference images only. No Roblox FBX / GLB packaging was performed.

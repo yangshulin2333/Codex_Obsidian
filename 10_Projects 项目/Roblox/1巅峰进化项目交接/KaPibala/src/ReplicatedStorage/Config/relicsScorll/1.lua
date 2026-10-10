@@ -1,0 +1,42 @@
+return {
+	{
+		desc = "+5% Relics Value",
+		id = 1,
+		quality = 2,
+		name = "Bronze Scroll",
+		icon = "rbxassetid://109036623664248",
+		add = 5,
+	},
+	{
+		desc = "+10% Relics Value",
+		quality = 3,
+		add = 10,
+		name = "Silver Scroll",
+		icon = "rbxassetid://107559893852925",
+		id = 2,
+	},
+	{
+		desc = "+15% Relics Value",
+		id = 3,
+		quality = 4,
+		add = 15,
+		icon = "rbxassetid://117345008625897",
+		name = "Golden Scroll",
+	},
+	{
+		desc = "+20% Relics Value",
+		add = 20,
+		icon = "rbxassetid://124827553804454",
+		name = "Platinum Scroll",
+		quality = 5,
+		id = 4,
+	},
+	{
+		desc = "+35% Relics Value",
+		id = 5,
+		icon = "rbxassetid://88111862446241",
+		add = 35,
+		quality = 6,
+		name = "Dark Scroll",
+	},
+}

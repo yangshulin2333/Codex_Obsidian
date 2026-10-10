@@ -1,0 +1,18 @@
+---@class ScrollingFrame:GuiObject
+---@field AbsoluteWindowSize Vector2 @不含滚动条的帧的大小（以像素为单位）。
+---@field AbsoluteCanvasSize Vector2 @不含滚动条的帧的大小（以像素为单位）。
+---@field BottomImage string @垂直滚动条上的“向下”图像。 它的大小始终是ScrollBarThickness的ScrollBarThickness。 这也用作水平滚动条上的图像。
+---@field CanvasPosition Vector2 @画布中应在滚动框左上方绘制的位置（以像素为单位）
+---@field CanvasSize UDim2 @确定可滚动区域的大小。 UDim2是使用父GUI的大小来计算的，类似于gui对象的常规Size属性。
+---@field ElasticBehavior ElasticBehavior @确定触摸输入时弹性滚动的行为
+---@field HorizontalScrollBarInset ScrollBarInset @指示水平滚动条的插入行为。
+---@field MidImage string @垂直滚动条上的中间图像。 它的大小可以在y方向上变化，但始终在x方向上设置为ScrollingFrame.ScrollBarThickness。 这也用作水平滚动条上的中间图像。
+---@field ScrollBarImageColor3 Color3 @
+---@field ScrollBarImageTransparency number @
+---@field ScrollBarThickness number @滚动条显示的厚度。 这适用于水平和垂直滚动条。 如果设置为0，则不会显示任何滚动条。
+---@field ScrollingDirection ScrollingDirection @决定滚动框中允许滚动的方向
+---@field ScrollingEnabled boolean @确定是否允许在框架上滚动。 如果为false，则不会渲染任何滚动条。
+---@field TopImage string @垂直滚动条上的Up图像。 它的大小始终是ScrollBarThickness的ScrollBarThickness。 这也用作水平滚动条上的左侧图像。
+---@field VerticalScrollBarInset ScrollBarInset @指示垂直滚动条的插入行为。
+---@field VerticalScrollBarPosition VerticalScrollBarPosition @指示垂直滚动条将位于的一侧。
+local module = {}

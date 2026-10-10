@@ -1,0 +1,40 @@
+Sapphire Royal Longsword Four Views Copy Audit
+created_at: 2026-06-22
+
+Built-in image_gen default folder:
+C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c
+
+Copied final outputs:
+
+front
+source: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\蓝晶圣纹长剑_平面型正视图\sapphire_royal_longsword_front_candidate_01.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\蓝晶圣纹长剑_平面型四视图\sapphire_royal_longsword_front.png
+
+back
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_051085d52856a0f9016a392bc0ce1c819b81659ac6a41f5fff.png
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\蓝晶圣纹长剑_2026-06-22\back_candidate_01.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\蓝晶圣纹长剑_平面型四视图\sapphire_royal_longsword_back.png
+
+left
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_0e4a952285404bc2016a392c7ab62c819aadca4714cdac02f1.png
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\蓝晶圣纹长剑_2026-06-22\left_candidate_01.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\蓝晶圣纹长剑_平面型四视图\sapphire_royal_longsword_left.png
+
+right
+source: sapphire_royal_longsword_left.png
+operation: horizontal mirror
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\蓝晶圣纹长剑_2026-06-22\right_candidate_01_mirrored_from_left.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\蓝晶圣纹长剑_平面型四视图\sapphire_royal_longsword_right.png
+
+contact_sheet
+source images: front, back, left, right
+operation: 2x2 local contact sheet
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\蓝晶圣纹长剑_平面型四视图\sapphire_royal_longsword_contact_sheet.png
+
+Visual check:
+- front/back: same weapon family, same long sword ratio, same royal gold/sapphire/silver material language
+- left/right: true thin side profile; right mirrored from left
+- no text, UI, character, hand, chain, serrations, ribbons, or unrelated geometry
+
+Scope:
+This run generated Tripo / 3D AI weapon reference images only. No Roblox FBX / GLB packaging was performed.

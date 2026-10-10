@@ -1,0 +1,19 @@
+{
+  "extensions": {
+    ".lua": "luau"
+  },
+  "exclude": [
+    ".svn/",
+    ".venv/",
+    "makedata/0temp/",
+    "makedata/python/pip-22.0.4/"
+  ],
+  "deprioritize": [
+    "config_desc/transform/",
+    "makedata/",
+    "src/ReplicatedStorage/Config/",
+    "src/ReplicatedStorage/Hotpot/",
+    "src/ReplicatedStorage/_FileData/",
+    "src/ServerStorage/_FileData/"
+  ]
+}

@@ -1,0 +1,16 @@
+---@class DockWidgetPluginGuiInfo @是一个数据类型，用于描述细节的。此数据型用于通过插件的方法构建数据型。
+---@field InitialEnabled boolean @‎使用此码头威吉特普卢金信息创建的插件的初始启用状态。如果一个带有相同"插件指南"的插件桂之前在 Roblox Studio 的早期会话中创建过，那么它将重新加载保存启用状态（除非初始可启动应超越Restore 是真的）。‎
+---@field InitialEnabledShouldOverrideRestore boolean @如果属实，初始可启动值将覆盖以前保存的插件吉状态，该状态正在创建此码头威吉特普卢金信息。以前保存的启用状态是根据‎‎插件的 GuiId‎‎参数加载的。
+---@field FloatingXSize number @‎使用此码头威吉特普卢金吉因信息创建的插件的初始像素宽度，当初始点状态设置为‎‎浮动‎‎时。‎
+---@field FloatingYSize number @使用此 DockWidgetPluginGuiInfo 创建的插件的初始像素高度，当初始点状态设置为‎‎浮动‎‎时。‎
+---@field MinWidth number @使用此基德威吉特普卢金信息（以像素为单位）创建的插件指南的最小宽度。‎ ‎请注意：每个平台都有自己的绝对最低限度 Roblox 将执行。当小部件浮动时，这些变化会考虑标题栏的内容（根据平台而异）。例如，在 Mac 上，宽度不得小于 ±80 像素，以适应关闭/最小化/最大化按钮。‎ DockWidgetPluginGuiInfo = {}
+---@field MinHeight number @‎使用此基德威吉特普卢金信息（以像素为单位）创建的插件的最低高度。‎
+---@type fun(initDockState:InitialDockState,initEnabled:boolean,overrideEnabledRestore:boolean,floatXSize:number,minWidth:number,minHeight:number):DockWidgetPluginGuiInfo @主要构造函数
+---@param initDockState InitialDockState
+---@param initEnabled boolean
+---@param overrideEnabledRestore boolean
+---@param floatXSize boolean
+---@param minWidth number
+---@param minHeight number
+---@return DockWidgetPluginGuiInfo
+function DockWidgetPluginGuiInfo.new(initDockState,initEnabled,overrideEnabledRestore,floatXSize,minWidth,minHeight) end

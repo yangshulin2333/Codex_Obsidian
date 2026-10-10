@@ -1,0 +1,27 @@
+Run: 冰蓝暗钢短剑_平面型四视图
+Date: 2026-06-25
+
+Source front:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\冰蓝暗钢短剑_平面型正视图\iceblue_darksteel_sword_front_candidate_01_flat_bg.png
+
+Generated back source:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_0df3320edcf7e601016a3cf6416a5481938b6b518d174ceaf6.png
+
+Rejected AI left source:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_0df3320edcf7e601016a3cf66e68288193b7282ba342b95eae.png
+
+Candidate archive:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\冰蓝暗钢短剑_2026-06-25
+
+Final files:
+- iceblue_darksteel_sword_front.png
+- iceblue_darksteel_sword_back.png
+- iceblue_darksteel_sword_left.png (candidate 03 true 90-degree reconstructed side)
+- iceblue_darksteel_sword_right.png (mirrored from candidate 03)
+- iceblue_darksteel_sword_contact_sheet.png
+
+Notes:
+- Final side views are not the rejected AI side candidate.
+- Candidate 02 front-compression side views were also rejected.
+- Final left was reconstructed as a true 90-degree side silhouette, not a horizontally squashed front texture.
+- Final right was mirrored from final left.

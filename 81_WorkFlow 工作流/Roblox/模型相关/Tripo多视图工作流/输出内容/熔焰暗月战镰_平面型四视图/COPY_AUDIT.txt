@@ -1,0 +1,40 @@
+Molten Darkmoon Scythe Four Views Copy Audit
+created_at: 2026-06-22
+
+Built-in image_gen default folder:
+C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c
+
+Copied final outputs:
+
+front
+source: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\熔焰暗月战镰_平面型正视图\molten_darkmoon_scythe_front_candidate_01.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\熔焰暗月战镰_平面型四视图\molten_darkmoon_scythe_front.png
+
+back
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_0ce0837e879872cf016a3930d45e84819886bab452a592beb6.png
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\熔焰暗月战镰_2026-06-22\back_candidate_01.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\熔焰暗月战镰_平面型四视图\molten_darkmoon_scythe_back.png
+
+left
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_0125e1833a3adf11016a3931ba28888198913f35df6d889f9c.png
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\熔焰暗月战镰_2026-06-22\left_candidate_01.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\熔焰暗月战镰_平面型四视图\molten_darkmoon_scythe_left.png
+
+right
+source: molten_darkmoon_scythe_left.png
+operation: horizontal mirror
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\熔焰暗月战镰_2026-06-22\right_candidate_01_mirrored_from_left.png
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\熔焰暗月战镰_平面型四视图\molten_darkmoon_scythe_right.png
+
+contact_sheet
+source images: front, back, left, right
+operation: 2x2 local contact sheet
+destination: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\熔焰暗月战镰_平面型四视图\molten_darkmoon_scythe_contact_sheet.png
+
+Visual check:
+- front/back: same weapon family, same long-handle ratio, same obsidian/ember material language
+- left/right: true thin side profile; right mirrored from left
+- no text, UI, character, hand, chain, serrations, ribbons, or unrelated geometry
+
+Scope:
+This run generated Tripo / 3D AI weapon reference images only. No Roblox FBX / GLB packaging was performed.

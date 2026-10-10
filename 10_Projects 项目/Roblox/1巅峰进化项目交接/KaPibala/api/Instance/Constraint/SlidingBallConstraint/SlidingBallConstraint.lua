@@ -1,0 +1,15 @@
+---@class SlidingBallConstraint:Constraint @约束的基类，允许其附件沿轴滑动。
+---@field ActuatorType ActuatorType @设置是否激活PrismaticConstraint的平移，如果是，则设置什么样的驱动。
+---@field CurrentPosition number @SlidingBallConstraint附件之间的当前偏移量。
+---@field LimitsEnabled boolean @设置SlidingBallConstraint是否将限制转换范围。
+---@field LowerLimit number @如果SlidingBallConstraint.LimitsEnabled为true，则沿着Constraint.Attachment0的x轴的下限。
+---@field MotorMaxAcceleration number @尝试达到其所需的SlidingBallConstraint.Velocity时，将SlidingBallConstraint.ActuatorType设置为ActuatorType的SlidingBallConstraint可以应用的最大加速度。
+---@field MotorMaxForce number @尝试达到其所需的SlidingBallConstraint.Velocity时，将SlidingBallConstraint.ActuatorType设置为ActuatorType的SlidingBallConstraint可以施加的最大力。
+---@field Restitution number @当SlidingBallConstraint.LimitsEnabled设置为true时，达到SlidingBallConstraint.UpperLimit和SlidingBallConstraint.LowerLimit指定的范围的末端时，由SlidingBallConstraint连接的弹性附件将如何变化。 限制在0和1之间。
+---@field ServoMaxForce number @当试图达到其所需的SlidingBallConstraint.Speed时，将SlidingBallConstraint.ActuatorType设置为ActuatorType的SlidingBallConstraint可以施加的最大力。
+---@field Size number @滑动球约束的可视化大小。
+---@field Speed number @将SlidingBallConstraint.ActuatorType设置为ActuatorType的SlidingBallConstraint所需的速度，将朝着其SlidingBallConstraint.TargetPosition转换时尝试维持。以螺柱/秒为单位。
+---@field TargetPosition number @如果SlidingBallConstraint.ActuatorType设置为ActuatorType，则SllidingBallConstraint将尝试转换到的目标位置。以双头螺栓测量。
+---@field UpperLimit number @如果SlidingBallConstraint.LimitsEnabled为true，则沿着Constraint.Attachment0的x轴的上限为SlidingBallConstraint。
+---@field Velocity number @将SlidingBallConstraint.ActuatorType设置为ActuatorType的SlidingBallConstraint的速度将尝试达到。以螺柱/秒为单位。
+local module = {}

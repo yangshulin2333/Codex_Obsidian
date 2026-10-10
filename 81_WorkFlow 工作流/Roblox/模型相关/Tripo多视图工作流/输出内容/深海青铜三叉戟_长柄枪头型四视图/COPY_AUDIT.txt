@@ -1,0 +1,15 @@
+created_at=2026-06-22
+workflow=Tripo four-view lockstep
+weapon=深海青铜三叉戟
+type=长柄枪头型三叉戟
+
+accepted_front=D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\深海青铜三叉戟_长柄枪头型正视图\deep_sea_bronze_trident_front_candidate_01.png
+
+formal_front=D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\深海青铜三叉戟_长柄枪头型四视图\deep_sea_bronze_trident_front.png
+formal_back=D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\深海青铜三叉戟_长柄枪头型四视图\deep_sea_bronze_trident_back.png
+formal_left=D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\深海青铜三叉戟_长柄枪头型四视图\deep_sea_bronze_trident_left.png
+formal_right=D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\深海青铜三叉戟_长柄枪头型四视图\deep_sea_bronze_trident_right.png
+contact_sheet=D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\深海青铜三叉戟_长柄枪头型四视图\deep_sea_bronze_trident_contact_sheet.png
+
+rejected_left_candidate_01=D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\深海青铜三叉戟_2026-06-22\_rejected\left_candidate_01_rejected_STYLE_DRIFT_handle_color.png
+notes=front was approved before expansion; left candidate 01 was rejected for handle color drift; right was mirrored from approved left candidate 02; no Roblox FBX or GLB packaging was performed.

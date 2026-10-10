@@ -1,0 +1,34 @@
+created_at: 2026-06-23
+workflow: Tripo multi-view weapon reference image generation
+generation_route: built-in image_gen
+
+formal_output_dir:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫晶秘银短刃_短剑型四视图
+
+accepted_front_source:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫晶秘银短刃_短剑型正视图\amethyst_mithril_dagger_front_candidate_01.png
+
+generated_back_source:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_0df5a902f08f49a2016a3a29fd0b68819b93e161f30cdef2df.png
+
+generated_left_source:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_0df5a902f08f49a2016a3a2a58309c819b845b328019cbaf70.png
+
+right_generation:
+amethyst_mithril_dagger_right.png was mirrored from amethyst_mithril_dagger_left.png.
+
+formal_files:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫晶秘银短刃_短剑型四视图\amethyst_mithril_dagger_front.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫晶秘银短刃_短剑型四视图\amethyst_mithril_dagger_back.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫晶秘银短刃_短剑型四视图\amethyst_mithril_dagger_left.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫晶秘银短刃_短剑型四视图\amethyst_mithril_dagger_right.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\紫晶秘银短刃_短剑型四视图\amethyst_mithril_dagger_contact_sheet.png
+
+visual_gate:
+front approved by user.
+back matches same model identity and amethyst/mithril palette.
+left is a true narrow side profile.
+right is mirrored from approved left side.
+
+hard_boundary:
+This run creates Tripo / 3D AI reference images only. No Roblox FBX / GLB packaging was executed.

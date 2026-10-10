@@ -1,0 +1,2 @@
+---@class PVInstance:Instance @PVInstance 是无法被创建的抽象类。它是在世界中具有物理位置的所有对象的基础，尤其是 BasePart 和 Model 对象。PVInstance 中的 PV 表示 Position-Velocity（位置-速度）。此类自 2005 年起就存在。虽然此类本身不再具有任何功能，但它和可连接至 BasePart 和 Model 的可修饰对象相关。
+local c = {}

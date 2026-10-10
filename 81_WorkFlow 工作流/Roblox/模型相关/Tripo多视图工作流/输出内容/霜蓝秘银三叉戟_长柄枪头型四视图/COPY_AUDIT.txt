@@ -1,0 +1,30 @@
+created_at: 2026-06-23
+workflow: Tripo multi-view weapon reference generation
+weapon: frost_blue_mithril_trident
+type: polearm_trident
+
+accepted_front_source:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\霜蓝秘银三叉戟_长柄枪头型正视图\frost_blue_mithril_trident_front_candidate_01.png
+
+generated_back_source:
+C:\Users\14176\.codex\generated_images\019ef338-d929-75c3-992a-7a1ceb3acd6a\ig_07c18fb81e7952f5016a3a2cc182288191bfaed11d377e79ea.png
+
+generated_left_source:
+C:\Users\14176\.codex\generated_images\019ef338-d929-75c3-992a-7a1ceb3acd6a\ig_0c67c253e4e99d9e016a3a2d1d9d48819186a39c43a15872fb.png
+
+right_generation:
+created by horizontal mirror from frost_blue_mithril_trident_left.png
+
+final_outputs:
+frost_blue_mithril_trident_front.png
+frost_blue_mithril_trident_back.png
+frost_blue_mithril_trident_left.png
+frost_blue_mithril_trident_right.png
+frost_blue_mithril_trident_contact_sheet.png
+
+notes:
+front was user-approved before expansion.
+back and left were generated from the accepted front-view design lock.
+right was mirrored from left to preserve side-view consistency.
+No Roblox FBX / GLB packaging was performed.
+

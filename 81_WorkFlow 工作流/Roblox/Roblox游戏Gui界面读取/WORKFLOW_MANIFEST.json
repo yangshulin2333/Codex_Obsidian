@@ -1,0 +1,36 @@
+{
+  "workflow_type": "roblox_gui_reading",
+  "workflow_name": "Roblox Game GUI Reading Workflow",
+  "workflow_version": "1.5",
+  "folder_name_required": false,
+  "language_preference": "zh-CN-first",
+  "entry_file": "00_Start_Here_For_Codex_给Codex先读.md",
+  "studio_export_guide": "01_Studio_Gui_Export_Guide_Studio导出说明.md",
+  "codex_parse_and_diff": "02_Codex_Parse_And_Diff_Codex解析对比.md",
+  "understanding_checklist": "03_Gui_Understanding_Checklist_UI理解清单.md",
+  "report_template": "04_Report_Template_UI读懂报告模板.md",
+  "after_studio_edit_sync": "05_After_Studio_Edit_Sync_手动改动同步模板.md",
+  "low_coupling_rules": "06_Low_Coupling_Rules_低耦合规则.md",
+  "continuous_improvement": "07_Continuous_Improvement_经验复盘与自我改良.md",
+  "core_exporters": [
+    "Tools/RobloxStudio_GuiOverviewExporter.luau",
+    "Tools/RobloxStudio_GuiSnapshotExporter.luau",
+    "Tools/RobloxStudio_GuiHttpSnapshotExporter.luau"
+  ],
+  "core_tools": [
+    "Tools/Parse-GuiSnapshot.ps1",
+    "Tools/Parse-ChunkedGuiSnapshot.ps1",
+    "Tools/Start-GuiSnapshotReceiver.ps1",
+    "Tools/Receive-GuiSnapshotHttp.py",
+    "Tools/Compare-GuiSnapshots.ps1",
+    "Tools/Test-UiAssetMap.py",
+    "Tools/Test-UiAssetMap.ps1"
+  ],
+  "templates": [
+    "Templates/Gui_Understanding_Report_Template.md"
+  ],
+  "tool_guide": "Tools/README.md",
+  "recent_update": "v1.5: HTTP exporter can auto-discover StarterGui, ReplicatedStorage.Resource.ui, and runtime PlayerGui GUI roots when TARGET_JOBS is empty; Compare-GuiSnapshots supports BeforeRoot/AfterRoot path normalization and includes Rotation plus more visual/layout fields.",
+  "recent_update_file": "08_2026-06-01_GuiReading_Workflow_Fix.md",
+  "description": "Export, receive, parse, compare, and explain Roblox GUI trees. Default snapshots use local HTTP so Studio Output truncation is avoided; Output exporters remain as a fallback. Workflow mistakes and user corrections are captured in the continuous-improvement file."
+}

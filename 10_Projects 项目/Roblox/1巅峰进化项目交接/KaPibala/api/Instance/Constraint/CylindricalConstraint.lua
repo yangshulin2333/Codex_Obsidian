@@ -1,0 +1,17 @@
+---@class CylindricalConstraint:SlidingBallConstraint @CylindricalConstraint允许其附件沿一个轴滑动并绕另一轴旋转。 可以将其视为PrismaticConstraint和HingeConstraint的组合。 滑动轴由约束的Constraint.Attachment0的X轴确定。 旋转轴以约束的Constraint.Attachment1为中心，并由约束的CylindricalConstraint.InclinationAngle偏离滑动约束。
+---@field AngularActuatorType ActuatorTypeA @角度执行器的类型：无，电机或伺服。
+---@field AngularLimitsEnabled boolean @启用围绕旋转轴的角度限制。
+---@field AngularRestitution number @恢复这两个限制，或它们的弹性。 [0，1]中的值。
+---@field AngularSpeed number @目标角速度。该值是无符号的，因为伺服将始终朝其目标移动。弧度每秒。 [0，inf）中的值。
+---@field AngularVelocity number @电机绕旋转轴的目标角速度（以弧度/秒为单位）。 [0，inf）中的值。
+---@field CurrentAngle number @附件1的参考轴和辅助轴之间围绕旋转轴的符号角（度）。 [-180，180]中的值。
+---@field InclinationAngle number @旋转轴的方向与附件0的xy平面中的x轴成角度。 [-180，180]中的值。
+---@field LowerAngle number @参考轴与附件1的SecondaryAxis之间围绕旋转轴的角度（以度为单位）的下限。 [-180，180]中的值。
+---@field MotorMaxAngularAcceleration number @电机的最大角加速度（以弧度每秒为单位）平方。 [0，inf）中的值。
+---@field MotorMaxTorque num @电机可施加以达到目标角速度的最大扭矩。单位是质量*螺柱^ 2 /秒^ 2。 [0，inf）中的值。
+---@field RotationAxisVisible boolean @启用旋转轴的可见性。
+---@field ServoMaxTorque number @伺服电机可以施加的最大扭矩。单位是质量*螺柱^ 2 /秒^ 2。 [0，inf）中的值。
+---@field TargetAngle number @附件1的参考轴和辅助轴之间围绕旋转轴的目标角度（度）。 [-180，180]中的值。
+---@field UpperAngle number @参考轴与附件1的辅助轴之间围绕旋转轴的角度（以度为单位）的上限。 [-180，180]中的值。
+---@field WorldRotationAxis Vector3 @世界坐标系中旋转轴的单位矢量方向
+local module = {}

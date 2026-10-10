@@ -1,0 +1,4 @@
+interface:
+display_name: "v2rayN 全局代理应用直连"
+short_description: "在 v2rayN 全局/TUN 模式下让 QQ、微信、WeGame、英雄联盟等指定应用直连。"
+default_prompt: "帮我给 v2rayN 全局代理添加应用直连规则，并验证相关连接是否仍在走代理。"

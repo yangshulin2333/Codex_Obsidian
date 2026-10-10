@@ -1,0 +1,2 @@
+---@class PlayerMouse:Mouse @PlayerMouse的行为与使用Tool.Equipped获得的Mouse对象相同。 可以使用本地播放器的Player：GetMouse方法从LocalScripts中访问它。 PlayerMouse和Mouse对象之间的唯一区别是可以使用Player：GetMouse方法获得PlayerMouse。 在大多数情况下，建议开发人员使用新的UserInputService。 但是，出于多种原因，仍然支持PlayerMouse和Mouse对象。 有关如何使用鼠标对象的更多信息，请参见“鼠标”页面。
+local module = {}

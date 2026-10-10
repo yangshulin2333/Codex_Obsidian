@@ -1,0 +1,9 @@
+[mcp_servers.codegraph]
+command = "C:\\Users\\long001\\AppData\\Local\\CodeGraph\\v1.6.0\\codegraph-win32-x64\\node.exe"
+args = ["--liftoff-only", "--disable-warning=ExperimentalWarning", "C:\\Users\\long001\\AppData\\Local\\CodeGraph\\v1.6.0\\codegraph-win32-x64\\lib\\dist\\bin\\codegraph.js", "serve", "--mcp", "--path", "D:\\AI\\Codex_Obsidian\\10_Projects 项目\\Roblox\\1巅峰进化项目交接\\KaPibala"]
+cwd = "D:\\AI\\Codex_Obsidian\\10_Projects 项目\\Roblox\\1巅峰进化项目交接\\KaPibala"
+startup_timeout_sec = 60
+tool_timeout_sec = 180
+
+[mcp_servers.codegraph.env]
+CODEGRAPH_TELEMETRY = "0"

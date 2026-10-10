@@ -1,0 +1,49 @@
+Dark Meteor Mace Round 360 Knobs Four Views Copy Audit
+created_at: 2026-06-23
+
+Built-in image_gen output roots used:
+C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c
+C:\Users\14176\.codex\generated_images\019ef338-d929-75c3-992a-7a1ceb3acd6a
+
+Final output folder:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\玄岩陨星锤_圆形360凸出物四视图
+
+front
+source: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\玄岩陨星锤_圆形360凸出物正视图\dark_meteor_mace_round_360_knobs_front_candidate_03.png
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\玄岩陨星锤_2026-06-23\front_candidate_03_round_360_knobs.png
+destination: dark_meteor_mace_round_360_front.png
+
+back
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_021cc38c5b9b5ba2016a3a60a7f6f4819baa83a54e4c06f366.png
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\玄岩陨星锤_2026-06-23\back_candidate_02_round_360_knobs.png
+destination: dark_meteor_mace_round_360_back.png
+
+left rejected
+source: C:\Users\14176\.codex\generated_images\019ef338-d929-75c3-992a-7a1ceb3acd6a\ig_01f27d8007c70c5e016a3a60ec15ec8191887ed021d293d7e7.png
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\玄岩陨星锤_2026-06-23\left_candidate_02_round_360_knobs.png
+failure: unrelated spear / trident-style weapon, rejected and replaced
+
+left accepted
+source: C:\Users\14176\.codex\generated_images\019eef3d-f063-79d3-bbc5-11972d3efb9c\ig_0bbb6c4737c8ecd9016a3a61cd083481989fab43f7c11cd95f.png
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\玄岩陨星锤_2026-06-23\left_candidate_03_round_360_knobs.png
+destination: dark_meteor_mace_round_360_left.png
+
+right
+source: dark_meteor_mace_round_360_left.png
+operation: horizontal mirror
+candidate_pool: D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\_imagegen_candidates\玄岩陨星锤_2026-06-23\right_candidate_03_round_360_knobs_mirrored_from_left.png
+destination: dark_meteor_mace_round_360_right.png
+
+contact_sheet
+source images: front, back, left, right
+operation: local 2x2 contact sheet rebuild after rejected side was replaced
+destination: dark_meteor_mace_round_360_contact_sheet.png
+
+Visual check:
+- front/back: same round studded mace family, same handle/collar/bottom cap
+- left/right: accepted left side mirrored to right
+- side views preserve bulky round mace head and 360-degree blunt protrusion logic
+- rejected side candidate was not included in final output
+
+Scope:
+This run generated Tripo / 3D AI weapon reference images only. No Roblox FBX / GLB packaging was performed.

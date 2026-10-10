@@ -1,0 +1,34 @@
+created_at: 2026-06-22
+workflow: Tripo multi-view weapon reference image generation
+generation_route: built-in image_gen
+
+formal_output_dir:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\赤焰红金三叉戟_长柄枪头型四视图
+
+accepted_front_source:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\赤焰红金三叉戟_长柄枪头型正视图\crimson_gold_trident_front_candidate_01.png
+
+generated_back_source:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_080946742d948e0b016a392f0fca388198b20442d8a393ba01.png
+
+generated_left_source:
+C:\Users\14176\.codex\generated_images\019eeec1-b7c6-7f42-93c6-e911ea748e03\ig_080946742d948e0b016a392f51c1908198ac3e62166b6a99f5.png
+
+right_generation:
+crimson_gold_trident_right.png was mirrored from crimson_gold_trident_left.png.
+
+formal_files:
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\赤焰红金三叉戟_长柄枪头型四视图\crimson_gold_trident_front.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\赤焰红金三叉戟_长柄枪头型四视图\crimson_gold_trident_back.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\赤焰红金三叉戟_长柄枪头型四视图\crimson_gold_trident_left.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\赤焰红金三叉戟_长柄枪头型四视图\crimson_gold_trident_right.png
+D:\Work\Note\yanzo\81_WorkFlow 工作流\Roblox\Tripo多视图工作流\输出内容\赤焰红金三叉戟_长柄枪头型四视图\crimson_gold_trident_contact_sheet.png
+
+visual_gate:
+front approved by user.
+back matches same model identity and red-gold palette.
+left is a true narrow side profile.
+right is mirrored from approved left side.
+
+hard_boundary:
+This run creates Tripo / 3D AI reference images only. No Roblox FBX / GLB packaging was executed.

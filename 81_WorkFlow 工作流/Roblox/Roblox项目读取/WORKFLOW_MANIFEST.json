@@ -1,0 +1,25 @@
+{
+  "workflow_type": "roblox_project_intake",
+  "workflow_name": "Roblox Project Intake Workflow",
+  "workflow_version": "1.1",
+  "folder_name_required": false,
+  "language_preference": "zh-CN-first",
+  "entry_file": "00_Start_Here_For_Codex_给Codex先读.md",
+  "new_chat_prompt": "01_New_Chat_Prompt_新对话启动提示词.md",
+  "export_guide": "02_Full_Export_Guide_完整导出清单.md",
+  "exporter_reference": "03_Studio_Exporter_Reference_Studio导出脚本说明.md",
+  "status_and_stop_rules": "04_Status_And_Stop_Rules_状态与收口规则.md",
+  "final_report_template": "05_Final_Report_Template_总接管报告模板.md",
+  "bootstrap_script": "Tools/Bootstrap_RobloxProjectAuditWorkspace.ps1",
+  "core_exporters": [
+    "Tools/RobloxStudio_QuickFocusedAuditExporter.luau",
+    "Tools/RobloxStudio_ProjectOnlyAssetExporter.luau",
+    "Tools/RobloxStudio_AnimationSoundExporter.luau",
+    "Tools/RobloxStudio_SourceAssetSearchExporter.luau",
+    "Tools/RobloxStudio_TargetSourceExporter.luau",
+    "Tools/RobloxStudio_TargetExplorerExporter.luau",
+    "Tools/RobloxStudio_TargetExplorerCompactExporter.luau",
+    "Tools/RobloxStudio_AuditExporter.luau"
+  ],
+  "description": "Prepare a Roblox project for Codex reading by creating analysis files and Roblox Studio exporter scripts."
+}

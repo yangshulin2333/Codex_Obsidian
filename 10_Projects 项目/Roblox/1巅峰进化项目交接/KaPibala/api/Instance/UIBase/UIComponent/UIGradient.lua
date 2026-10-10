@@ -1,0 +1,6 @@
+---@class UIGradient @UIGradient 是一个应用颜色和透明度的 UIComponent 梯度到父 GuiObject 呈现的 UI 元素。
+---@field Color ColorSequence @确定与父物体的颜色渐变
+---@field Enabled boolean @是否启用渐变。
+---@field Offset Vector2 @
+---@field Rotation number
+---@field Transparency NumberSequence

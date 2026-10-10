@@ -1,0 +1,84 @@
+character {}
+playerLv {}
+monster {}
+pet {}
+relics {}
+gacha {
+    conv: {
+        pet_id: $array;
+        weight: ;
+    }
+}
+resource {}
+task {}
+reborn {}
+goods {
+    conv: {
+        args: $array;
+    }
+}
+shop_gift {}
+relics_gacha {
+    conv: {
+        relics_id: $array;
+        weight: ;
+    }
+}
+boosts {}
+daily_reward {}
+online_reward {}
+upgrade {}
+prop {}
+stage {}
+BPTask {}
+BPReward {}
+code {}
+EternalReward {}
+EternalShop {}
+EternalSpin {}
+EternalTask {}
+badge {}
+Party {
+    conv: {
+        lv1Per: $array;
+        lv2Per: $array;
+        lv3Per: $array;
+    }
+}
+PartyMonster {}
+Weather {}
+relicsScorll {}
+title {}
+ChristmasMonster {}
+ChristmasBox {}
+skill {}
+skillBox {}
+mount {}
+guildDaily {}
+guildShop {}
+luckyStone {}
+forgeCost {}
+forgeStone {}
+pvpMonster {
+    conv: {
+        gold: $array;
+        gems: $array;
+        pvpCoin: $array;
+    }
+}
+pvpshop {}
+challengeMonster {}
+newdaily_reward {}
+suit {
+    conv: {
+        relics_id: $array;
+    }
+}
+stageDrop {
+    conv: {
+        relics_id: $array;
+        per:;
+        boss_id:;
+        boss_per:;
+    }
+}

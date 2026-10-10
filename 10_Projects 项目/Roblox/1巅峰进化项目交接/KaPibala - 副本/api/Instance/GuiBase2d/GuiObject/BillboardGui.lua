@@ -1,0 +1,7 @@
+---@class BillboardGui:GuiObject
+---@field Adornee BasePart @基于该对象进行展示
+---@field ExtentsOffset Vector3 @相对偏差,会抖动
+---@field ExtentsOffsetWorldSpace Vector3 @世界偏差
+---@field PlayerToHideFrom Player @对该玩家隐藏
+---@field ResetOnSpawn boolean @是否在玩家重生时进行重新加载
+---@field Brightness number @亮度

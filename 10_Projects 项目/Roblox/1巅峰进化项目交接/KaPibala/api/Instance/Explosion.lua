@@ -1,0 +1,8 @@
+---@class Explosion:Instance @一个爆炸对象，Explosion 将在爆炸的 Explosion.BlastRadius 内向 BasePart 施加力。这种力会破坏各部件之间的接头，并杀死不受 ForceField 保护的 Humanoid 角色。
+---@field BlastPressure number @用来确定当BasePart被卷入Explosion.BlastRadius时所受到的力的大小。
+---@field BlastRadius number @此属性将确定 Explosion 的半径（以格为单位）。此半径确定爆炸效果面积，而不是爆炸视觉效果大小。
+---@field DestroyJointRadiusPercent number @用于Explosion.BlastRadius的比例设置，值在 0 和 1 之间，在其范围内所有的关节都会被毁，在其范围外的东西只会受到Explosion力的影响。
+---@field ExplosionType ExplosionType @此属性决定 Explosion 与 Terrain 的交互方式。用于设置爆炸是否会破坏地形。
+---@field Position Vector3 @此属性是 Explosion 的中心位置。它是定义在世界空间中的，不受 Explosion 的父级的影响。
+---@field Visible boolean @此属性决定是否显示Explosion的视觉效果。
+---@field Hit RBXScriptSignal @当 Explosion 在其 Explosion.BlastRadius 内命中 BasePart 时触发。将返回命中的部件及其与 Explosion.Position 的距离。

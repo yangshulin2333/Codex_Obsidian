@@ -1,0 +1,19 @@
+created_at: 2026-06-25
+workflow: Tripo multi-view weapon reference image generation
+generation_route: built-in image_gen
+
+generated_front_source:
+C:\Users\14176\.codex\generated_images\019ef41a-ad8f-7c61-8ec4-f8d6b27fce1a\ig_0ea4a2ac2ef8717c016a3cf6bd8484819a8cee26040235a836.png
+
+formal_front_candidate:
+cobalt_storm_rapier_front_candidate_01.png
+
+candidate_archive_files:
+uploaded_reference.png
+front_candidate_01.png
+
+visual_gate:
+front candidate keeps the same rapier / slender dueling sword family, changes the theme to cobalt storm steel, keeps a full centered orthographic front view, and contains no text, character, hand, or viewport UI.
+
+status:
+waiting for user confirmation before four-view expansion.

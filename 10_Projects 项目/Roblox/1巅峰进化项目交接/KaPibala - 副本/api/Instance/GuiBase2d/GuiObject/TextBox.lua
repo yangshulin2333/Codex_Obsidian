@@ -1,0 +1,23 @@
+---@class TextBox:GuiObject @TextBox（输入框）
+---@field Font Font @决定渲染文本的字体。
+---@field LineHeight number @缩放 TextLabel 文本行之间的间距
+---@field ClearTextOnFocus boolean @决定单击 TextBox 时是否会清空其 TextBox.Text 属性
+---@field Text string @确定由 UI 元素渲染的字符串。
+---@field TextBounds Vector2 @UI 元素文本的像素大小。
+---@field TextColor3 Color3 @此属性用于确定渲染文字的颜色
+---@field TextFits boolean @当渲染的文本内容尺寸不合 UI 元素的空间时启用。
+---@field TextScaled boolean @确定 UI 元素中的文本是否进行正确缩放，以填充 UI 元素。
+---@field TextSize number @确定文本行的高度，以像素为单位。
+---@field TextStrokeColor3 Color3 @确定文本描边（轮廓）的颜色。
+---@field TextStrokeTransparency number @确定文本描边（轮廓）的透明度。
+---@field TextTransparency number @决定渲染文字的透明度。
+---@field TextTruncate TextTruncate @控制此 TextLabel 中显示文本的截断。
+---@field TextWrapped boolean @确定文本在 GUI 元素空间内是否换行，截断多余的文本。
+---@field TextXAlignment TextXAlignment @确定渲染文本的水平对齐方式。
+---@field TextYAlignment TextYAlignment @确定渲染文本的垂直对齐方式。
+---@field CursorPosition number 决定文本光标的偏移值（以字节为单位），当无光标时显示 -1。
+---@field MultiLine boolean 当设为 true 时，TextBox 内的文本可以分行显示。同时也将允许玩家使用 Enter 键另起一行。
+---@field RichText boolean 决定 TextBox 是否使用富文本格式渲染 TextBox.Text 字符串。
+---@field PlaceholderText string 设置 TextBox 中尚未输入文本时显示的文本。
+---@field PlaceholderColor3 Color3 设置 TextBox 中尚未输入文本时所使用的文本颜色。
+local module = {}

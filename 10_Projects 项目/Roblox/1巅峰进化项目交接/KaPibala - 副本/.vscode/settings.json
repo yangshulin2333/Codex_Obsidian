@@ -1,0 +1,13 @@
+{
+    "robloxLsp.diagnostics.globals": [
+        "lfs",
+        "package",
+        "io"
+    ],
+    "robloxLsp.diagnostics.disable": [
+        "undefined-global",
+        "undefined-doc-name",
+        "undefined-doc-module",
+        "undefined-doc-class"
+    ]
+}

@@ -1,0 +1,88 @@
+return {
+	[112] = {
+		id = 112,
+		g_type = "pvpBuff",
+		args = {
+			"atkspeed",
+			2,
+		},
+		name = "Attack Speed Boost2",
+		price = 30,
+		goods_id = 3530297834,
+	},
+	[113] = {
+		id = 113,
+		g_type = "pvpBuff",
+		args = {
+			"speed",
+			1,
+		},
+		name = "Move Speed Boost1",
+		price = 10,
+		goods_id = 3530298003,
+	},
+	[114] = {
+		id = 114,
+		g_type = "pvpBuff",
+		args = {
+			"speed",
+			2,
+		},
+		name = "Move Speed Boost2",
+		price = 30,
+		goods_id = 3530298093,
+	},
+	[115] = {
+		id = 115,
+		g_type = "revenge",
+		name = "Revenge",
+		price = 49,
+		goods_id = 3530360525,
+	},
+	[116] = {
+		id = 116,
+		g_type = "transfer",
+		name = "Transfer1",
+		price = 20,
+		goods_id = 3532679577,
+	},
+	[117] = {
+		id = 117,
+		goods_id = 3533407478,
+		name = "Transfer2",
+		price = 40,
+		g_type = "transfer",
+	},
+	[118] = {
+		id = 118,
+		g_type = "transfer",
+		name = "Transfer3",
+		price = 60,
+		goods_id = 3533407581,
+	},
+	[119] = {
+		id = 119,
+		goods_id = 3533407686,
+		name = "Transfer4",
+		price = 80,
+		g_type = "transfer",
+	},
+	[120] = {
+		id = 120,
+		g_type = "recover",
+		name = "Recover1",
+		price = 10,
+		goods_id = 3533557288,
+	},
+	[111] = {
+		id = 111,
+		g_type = "pvpBuff",
+		args = {
+			"atkspeed",
+			1,
+		},
+		name = "Attack Speed Boost1",
+		price = 10,
+		goods_id = 3530297758,
+	},
+}

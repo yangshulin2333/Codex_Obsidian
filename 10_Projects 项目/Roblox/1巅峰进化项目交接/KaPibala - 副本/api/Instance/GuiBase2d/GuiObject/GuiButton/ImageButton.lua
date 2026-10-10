@@ -1,0 +1,14 @@
+---@class ImageButton:GuiButton @在渲染一个 GuiButton 的附加行为时，ImageButton 和 ImageLabel 的做法非常类似，二者都会去定义同样的图像渲染属性
+---@field HoverImage string @当鼠标悬停在 ImageButton 上时将使用的 textureId。
+---@field ImageColor3 Color3 @决定了渲染图像的上色方式.
+---@field ImageRectOffset Vector2 @待显示的图片子区域的偏移量（以像素为单位）。
+---@field ImageRectSize Vector2 @决定待显示的图片子区域的尺寸（以像素为单位）。
+---@field ImageTransparency Vector2 @决定着一个被渲染图像的透明度。
+---@field IsLoaded boolean @指示图像是否已从 Roblox 网站加载完毕。
+---@field PressedImage string @当鼠标在 ImageButton 上按下时将使用的 textureId
+---@field ScaleType ScaleType @决定当图像显示在一个与自身尺寸不一样的 UI 元素之中时该如何进行缩放。
+---@field SliceCenter Rect @决定九宫格图像的中心。
+---@field SliceScale number @按指定比例对九宫格边缘进行缩放
+---@field TileSize UDim2 @设立 ImageButton 的平铺比例。
+---@field Image string @UI 元素所显示的图像内容
+local module = {}

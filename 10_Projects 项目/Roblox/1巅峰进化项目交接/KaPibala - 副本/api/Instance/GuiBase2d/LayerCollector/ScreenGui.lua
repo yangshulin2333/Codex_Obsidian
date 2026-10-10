@@ -1,0 +1,3 @@
+---@class ScreenGui:LayerCollector
+---@field DisplayOrder number @控制多个 ScreenGuis 绘制的顺序
+---@field IgnoreGuiInset boolean @当设为 true 时，Roblox 的 CoreGuis 施加的 GUI 嵌入将被 ScreenGui 及其子项忽略。

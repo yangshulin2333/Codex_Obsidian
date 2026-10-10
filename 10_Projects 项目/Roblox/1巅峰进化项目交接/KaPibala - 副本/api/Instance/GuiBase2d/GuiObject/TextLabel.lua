@@ -1,0 +1,18 @@
+---@class TextLabel:GuiObject @TextLabel（文本标签）可以渲染如 Frame 等矩形，且其上拥有带样式的文本。该矩形可用来定义文本边界、文本缩放（TextLabel.TextScaled）和换行（TextLabel.TextWrapped、TextLabel.TextXAlignment、TextLabel.TextYAlignment）。
+---@field Font Font @决定渲染文本的字体。
+---@field LineHeight number @缩放 TextLabel 文本行之间的间距
+---@field LocalizedText string @设置 TextLabel 是否应为 GuiBase2d.Localize（本地化）。
+---@field Text string @确定由 UI 元素渲染的字符串。
+---@field TextBounds Vector2 @UI 元素文本的像素大小。
+---@field TextColor3 Color3 @此属性用于确定渲染文字的颜色
+---@field TextFits boolean @当渲染的文本内容尺寸不合 UI 元素的空间时启用。
+---@field TextScaled boolean @确定 UI 元素中的文本是否进行正确缩放，以填充 UI 元素。
+---@field TextSize number @确定文本行的高度，以像素为单位。
+---@field TextStrokeColor3 Color3 @确定文本描边（轮廓）的颜色。
+---@field TextStrokeTransparency number @确定文本描边（轮廓）的透明度。
+---@field TextTransparency number @决定渲染文字的透明度。
+---@field TextTruncate TextTruncate @控制此 TextLabel 中显示文本的截断。
+---@field TextWrapped boolean @确定文本在 GUI 元素空间内是否换行，截断多余的文本。
+---@field TextXAlignment TextXAlignment @确定渲染文本的水平对齐方式。
+---@field TextYAlignment TextYAlignment @确定渲染文本的垂直对齐方式。
+local module = {}

@@ -1,0 +1,14 @@
+---@class Sky:Instance @将 Sky 对象放进 Lighting 中后，将会改变游戏内的天空外观。开发者可以通过此特性使用自定义天空，而非 Roblox 的默认天空。Skybox（天空盒）共有六面，如同立方体一般。如果对天空盒进行更改或自定义，则天空中的对象（如太阳等）在关闭 Sky 对象的 Sky.CelestialBodiesShown 属性（将会从天空中移除太阳、月亮及群星）前将会持续显示在天空中。Skybox 一面的推荐图片尺寸为 256 x 256 像素。调整 Sky 对象的 Sky.StarCount 属性后，可以改变晚上天空中的群星数量。
+---@field CelestialBodiesShown boolean @设置 Sun（太阳）、Moon（月亮）和群星是否会显示在天空中。
+---@field MoonAngularSize number @使用当前 Skybox（天空盒）时所观察到月亮的角直径（以度为单位）。
+---@field MoonTextureId string @使用此天空盒时月亮的纹理。
+---@field SkyboxBk string @天空的后表面图片的 URL 链接。
+---@field SkyboxDn string @天空的底部表面图片的 URL 资源链接。
+---@field SkyboxFt string @天空的前表面图片的 URL 链接。
+---@field SkyboxLf string @天空左侧表面图片的 URL 链接。
+---@field SkyboxRt string @天空右侧表面图片的 URL 链接。
+---@field SkyboxUp string @天空顶部表面图片的 URL 链接。
+---@field StarCount number @天空盒中显示了多少星星。
+---@field SunAngularSize number @使用当前 Skybox（天空盒）时所观察到太阳的角直径（以度为单位）。
+---@field SunTextureId string @使用此天空盒时太阳的纹理。
+local c = {}

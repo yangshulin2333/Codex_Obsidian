@@ -1,0 +1,72 @@
+---@class GuiObject:GuiBase2d @GuiObject 是 2D 用户界面对象的抽象类（类似 BasePart），它定义了与图形用户界面（GUI）对象显示相关的所有属性，如 GuiObject.Size 和 GuiObject.Position。它还有一些有用的只读属性，如 GuiObject/AbsolutePosition、GuiObject/AbsoluteSize和 GuiObject/AbsoluteRotation。需要注意的是，有时 GuiObject 可能会有负尺寸但渲染正常，您应该使用 GuiObject.AnchorPoint 来更好地控制渲染。
+---@field Active boolean @确定 UI 元素是否会隐藏输入
+---@field AnchorPoint Vector2 确定 GUI 相对于其绝对尺寸的原点
+---@field BackgroundColor3 Color3 @确定 GUI 的背景颜色
+---@field BackgroundTransparency number @定义 GUI 的背景和边框的透明度
+---@field BorderColor3 Color3 @定义 `GuiObject|GUI’ 的边框颜色
+---@alias BorderMode number | '0' | '1' | '2'
+---@field BorderMode BorderMode
+---@field BorderSizePixel number @定义 GUI 的边框宽度
+---@field ClipsDescendants boolean @确定是否应该渲染超出父 GUI 元素边界的子 GUI
+---@field LayoutOrder number @与 UIGridStyleLayout 结合使用时，控制 GUI 的排序顺序
+---@field NextSelectionDown GuiObject @设置游戏手柄选择器朝此方向移动时将选择的 GuiObject
+---@field NextSelectionLeft GuiObject @设置游戏手柄选择器朝此方向移动时将选择的 GuiObject
+---@field NextSelectionRight GuiObject @设置 Gamepad（游戏手柄）选择器朝此方向移动时将选择的GuiObject|GUI`
+---@field NextSelectionUp GuiObject @设置游戏手柄选择器朝此方向移动时将选择的 GuiObject
+---@field Position UDim2 @确定 GUI 的像素和标量尺寸
+---@field Selectable boolean @决定 GUI 是否可以被游戏手柄选择
+---@field SelectionImageObject GuiObject @覆盖默认的选择装饰物（用于游戏手柄）。
+---@field SizeConstraint SizeConstraint @用于约束一个 GUI 对象的比例。选择 GUI 相对于其父类尺寸所基于的 GuiObject.Size 轴
+---@field Transparency number @BackgroundTransparency 和 TextTransparency 的混合属性
+---@field Visible boolean @确定是否渲染 GUI 及其子类
+---@field ZIndex number @确定相对于其他 GUI 渲染 GUI 的顺序
+---@field Size UDim2 @确定 GUI 的像素和标量尺寸
+---@field Rotation number @确定 UI 元素的旋转度数
+---@field InputBegan RBXScriptSignal @当用户通过人机接口设备（按下鼠标按钮、开始触摸、按下键盘按钮等）开始交互时触发
+---@field InputChanged RBXScriptSignal @当用户改变他们通过人机接口设备（按下鼠标按钮、开始触摸、按下键盘按钮等）交互的方式时触发
+---@field InputEnded RBXScriptSignal @当用户停止通过人机界面设备进行交互时触发（按下鼠标键，触摸开始，按下键盘键等）
+---@field MouseEnter RBXScriptSignal @当用户的鼠标进入 GUI 元素时触发
+---@field MouseLeave RBXScriptSignal @当用户的鼠标离开 GUI 元素时触发
+---@field MouseMoved RBXScriptSignal @当用户的鼠标在一个 GUI 元素中移动时触发
+---@field MouseWheelBackward RBXScriptSignal @MouseWheelBackward
+---@field MouseWheelForward RBXScriptSignal @当用户的鼠标在 GUI 元素上方向前滚动滚轮时触发
+---@field SelectionGained RBXScriptSignal @当 GuiObject 被游戏手柄选择器聚焦时触发
+---@field SelectionLost RBXScriptSignal @当游戏手柄选择器停止聚焦 GuiObject 时触发
+---@field TouchLongPress RBXScriptSignal @在玩家开始、继续或停止长按 UI 元素时触发
+---@field TouchPan RBXScriptSignal @当玩家移动手指到 UI 元素上时触发
+---@field TouchPinch RBXScriptSignal @当玩家在 UI 元素上使用两根手指执行聚拢或展开手势时触发
+---@field TouchRotate RBXScriptSignal @当玩家在 UI 元素上使用两根手指执行旋转手势时触发
+---@field TouchSwipe RBXScriptSignal @当玩家在 UI 元素上执行滑动手势时触发
+---@field TouchTap RBXScriptSignal @当玩家在 UI 元素上执行触摸手势时触发
+local module = {}
+---@type fun(endPosition:UDim2,easingDirection:EasingDirection,easingStyle:EasingStyle,time:number,override:boolean,callback:function):boolean @平滑地移动一个 GUI 到一个新的 UDim2
+---@param endPosition UDim2 @GUI 要移动到的地方
+---@param easingDirection EasingDirection @GUI 到 endPosition 的缓动方向
+---@param easingStyle EasingStyle @GUI 到 endPosition 的缓动样式
+---@param time number @渐变过程持续的时间
+---@param override boolean @此渐变动画是否覆盖正在运行的渐变动画
+---@param callback function @渐变动画完成时执行的回调函数
+---@return boolean @渐变动画是否会播放
+function module:TweenPosition(endPosition,easingDirection,easingStyle,time,override,callback)
+end
+---@type fun(endSize:UDim2,easingDirection:EasingDirection,easingStyle:EasingStyle,time:number,override:boolean,callback:function):boolean 在一定时间内，使用特定的 EasingDirection 和 EasingStyle 平滑地将一个 GUI 的尺寸变为一个新的 UDim2。 此函数将返回渐变动画是否会播放。通常这总是会返回 true，但如果有另一个渐变处于激活且覆盖参数为 false，则会返回 false。
+---@param endSize UDim2 @GUI 要调整到的尺寸
+---@param easingDirection EasingDirection @GUI 到 endPosition 的缓动方向
+---@param easingStyle EasingStyle @GUI 到 endPosition 的缓动样式
+---@param time number @渐变过程持续的时间
+---@param override boolean @此渐变动画是否覆盖正在运行的渐变动画
+---@param callback function @渐变动画完成时执行的回调函数
+---@return boolean @渐变动画是否会播放
+function module:TweenSize(endSize,easingDirection,easingStyle,time,override,callback)
+end
+---@type fun(endSize:UDim2,endPosition:UDim2,easingDirection:EasingDirection,easingStyle:EasingStyle,time:number,override:boolean,callback:function):boolean @平滑地变化一个 GUI 为新的尺寸和位置
+---@param endSize UDim2 @GUI 要调整到的尺寸
+---@param endPosition UDim2 @GUI 要移动到的地方
+---@param easingDirection EasingDirection @GUI 到 endPosition 的缓动方向
+---@param easingStyle EasingStyle @GUI 到 endPosition 的缓动样式
+---@param time number @GUI 到 endPosition 的缓动样式
+---@param override boolean @此渐变动画是否覆盖正在运行的渐变动画
+---@param callback function @渐变动画完成时执行的回调函数
+---@return boolean @渐变动画是否会播放
+function module:TweenSizeAndPosition(endSize,endPosition,easingDirection,easingStyle,time,override,callback)
+end

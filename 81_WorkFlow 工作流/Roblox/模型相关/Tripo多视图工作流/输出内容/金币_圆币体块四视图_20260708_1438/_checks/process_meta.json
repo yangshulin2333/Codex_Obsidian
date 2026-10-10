@@ -1,0 +1,23 @@
+{
+  "canvas": [
+    4096,
+    4096
+  ],
+  "background_rgb": [
+    216,
+    222,
+    230
+  ],
+  "sources": {
+    "front": "C:\\Users\\14176\\.codex\\generated_images\\019f406b-3100-7fb3-9d84-08ff38749705\\ig_0d6b52ce14dba458016a4deea61d80819a9f8ba2dc6843d4e1.png",
+    "back": "C:\\Users\\14176\\.codex\\generated_images\\019f406b-3100-7fb3-9d84-08ff38749705\\ig_087f8e2a7b710da1016a4def6f02c48199a65e747d87281917.png",
+    "left": "C:\\Users\\14176\\.codex\\generated_images\\019f406b-3100-7fb3-9d84-08ff38749705\\ig_087f8e2a7b710da1016a4defa15e248199a8cf993462e69e58.png"
+  },
+  "final_files": [
+    "D:\\AI\\Codex\\Codex_Obsidian\\81_WorkFlow 工作流\\Roblox\\模型相关\\Tripo多视图工作流\\输出内容\\金币_圆币体块四视图_20260708_1438\\00_final_tripo_upload\\front.png",
+    "D:\\AI\\Codex\\Codex_Obsidian\\81_WorkFlow 工作流\\Roblox\\模型相关\\Tripo多视图工作流\\输出内容\\金币_圆币体块四视图_20260708_1438\\00_final_tripo_upload\\back.png",
+    "D:\\AI\\Codex\\Codex_Obsidian\\81_WorkFlow 工作流\\Roblox\\模型相关\\Tripo多视图工作流\\输出内容\\金币_圆币体块四视图_20260708_1438\\00_final_tripo_upload\\left.png",
+    "D:\\AI\\Codex\\Codex_Obsidian\\81_WorkFlow 工作流\\Roblox\\模型相关\\Tripo多视图工作流\\输出内容\\金币_圆币体块四视图_20260708_1438\\00_final_tripo_upload\\right.png"
+  ],
+  "note": "Coin multi-view adapted from Tripo workflow; right is mirrored from left to avoid side drift."
+}

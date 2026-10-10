@@ -1,0 +1,42 @@
+return {
+	[24] = {
+		world = 13,
+		id = 24,
+		prop = "exp",
+		name = "ExpUpgrade5",
+		price = 500000000000,
+		value = 10,
+	},
+	[25] = {
+		world = 13,
+		id = 25,
+		prop = "relics",
+		name = "RelicsUpgrade3",
+		price = 2000000000000,
+		value = 10,
+	},
+	[21] = {
+		world = 11,
+		id = 21,
+		prop = "atk",
+		name = "DamageUpgrade6",
+		price = 10000000000,
+		value = 10,
+	},
+	[22] = {
+		world = 12,
+		id = 22,
+		prop = "speed",
+		name = "SpeedUpgrades3",
+		price = 75000000000,
+		value = 10,
+	},
+	[23] = {
+		world = 12,
+		id = 23,
+		prop = "hp",
+		name = "HealthUpgrade3",
+		price = 175000000000,
+		value = 10,
+	},
+}

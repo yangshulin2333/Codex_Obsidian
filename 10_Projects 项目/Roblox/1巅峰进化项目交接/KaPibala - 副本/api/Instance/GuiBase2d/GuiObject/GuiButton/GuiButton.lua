@@ -1,0 +1,13 @@
+---@class GuiButton:GuiObject @GuiLabel 是从GuiObject那里继承的抽象类，它属于ImageButton和TextButton的基类，这种类型的对象一般用来做交互式、可点击的用户界面元素，它还为交互式行为定义了好几个属性，比如GuiButton.AutoButtonColor和GuiButton.Modal，同时也为鼠标按钮专门准备了一些事件（GuiButton.MouseButton1Click、GuiButton.MouseButton1Down等等）。
+---@field AutoButtonColor boolean @决定着按钮能否在鼠标悬停于按钮之上或当鼠标点击按钮时自动更换颜色。
+---@field Modal boolean @如果在 GUI 元素可见时为 true，鼠标将不会锁定，除非按下鼠标右键。
+---@field Selected boolean @一个指示对象是否被选择的 boolean 值
+---@field Style ButtonStyle @根据预先确定的样式列表设置 GuiButton 的样式。
+---@field Activated RBXScriptSignal @激活按钮时触发Activated ( Instance inputObject , int clickCount )
+---@field MouseButton1Click RBXScriptSignal @当鼠标左键完全点击 GUI 按钮时触发
+---@field MouseButton1Down RBXScriptSignal @当鼠标左键在 GUI 对象上处于按下状态时触发
+---@field MouseButton1Up RBXScriptSignal @当鼠标左键松开 GUI 对象时触发MouseButton1Up ( int x , int y )
+---@field MouseButton2Click RBXScriptSignal @当鼠标右键完全点击 GUI 按钮时触发
+---@field MouseButton2Down RBXScriptSignal @当鼠标右键在 GUI 对象上处于按下状态时触发MouseButton2Down ( int x , int y )
+---@field MouseButton2Up RBXScriptConnection @ 当鼠标右键松开 GUI 对象时触发MouseButton2Up ( int x , int y )
+local module = {}

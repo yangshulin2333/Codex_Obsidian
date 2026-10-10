@@ -1,0 +1,15 @@
+---@class HingeConstraint:Constraint @HingeConstraint允许两个附件绕一个轴旋转，约束两个附件，使它们都占据相同的位置，并且它们的X轴指向相同的方向。
+---@field ActuatorType ActuatorType @设置是否激活HingeConstraint的旋转，如果是，则设置什么样的促动
+---@field AngularSpeed number @将HingeConstraint.ActuatorType设置为Servo的HingeConstraint所需的角速度将在向其HingeConstraint.TargetAngle旋转时尝试保持。以弧度/秒为单位。
+---@field AngularVelocity number @将HingeConstraint.ActuatorType设置为Motor的HingeConstraint角速度将尝试达到。以弧度/秒为单位。
+---@field CurrentAngle number @HingeConstraint的当前角度。
+---@field LimitsEnabled boolean @设置HingeConstraint是否将限制旋转范围。
+---@field LowerAngle number @如果HingeConstraint.LimitsEnabled为true，则HingeConstraint将允许的最小旋转角度。
+---@field MotorMaxAcceleration number @将HingeConstraint.ActuatorType设置为Motor的HingeConstraint的最大角加速度可以应用以实现其HingeConstraint.AngularVelocity。以弧度/（第二平方）为单位。
+---@field MotorMaxTorque number @试图达到其所需的HingeConstraint.AngularVelocity时，可将HingeConstraint.ActuatorType设置为Motor的HingeConstraint最大扭矩施加。
+---@field Radius number @铰链约束的可视化半径。
+---@field Restitution number @当HingeConstraint.LimitsEnabled为true时，由HingeConstraint连接的弹性附件在达到范围的末端时将具有多大的弹性。限制在0和1之间。
+---@field ServoMaxTorque number @试图达到其所需的HingeConstraint.TargetAngle时，可将HingeConstraint.ActuatorType设置为Servo的HingeConstraint最大扭矩施加。
+---@field TargetAngle number @如果HingeConstraint.ActuatorType设置为Servo，则HingeConstraint将尝试旋转到的目标角度。以度为单位。
+---@field UpperAngle number @如果HingeConstraint.LimitsEnabled为true，则HingeConstraint将允许的最大旋转角度。
+local module = {}
