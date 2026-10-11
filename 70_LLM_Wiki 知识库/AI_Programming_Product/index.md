@@ -5,7 +5,7 @@ status: active
 owner: mixed
 source: self
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-10-11
 ---
 
 # AI 编程与产品 Wiki
@@ -25,6 +25,7 @@ updated: 2026-06-26
 - [[Codex 工具能力与使用边界]]
 - [[ComfyUI 节点工作流入门]]
 - [[Git 与 TortoiseGit Windows 标准安装规则]]
+- [[Mihon 中文漫画阅读环境部署经验]]
 - [[AI 工具卡模板]]
 - [[ElevenLabs 游戏宣传 BGM 实操与复用清单]]
 - [[产品思路记录模板]]

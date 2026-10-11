@@ -5,7 +5,7 @@ status: active
 owner: mixed
 source: self
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-10-11
 ---
 
 # AI 编程与产品 MOC
@@ -26,6 +26,8 @@ updated: 2026-06-26
 - [[70_LLM_Wiki 知识库/AI_Programming_Product/ElevenLabs 游戏宣传 BGM 实操与复用清单|ElevenLabs 游戏宣传 BGM 实操与复用清单]]
 - [[70_LLM_Wiki 知识库/AI_Programming_Product/产品思路记录模板|产品思路记录模板]]
 - [[81_WorkFlow 工作流/WeChat小程序/普通小程序/注册备案与发布工作流/微信普通小程序从注册到公开发布工作流|微信普通小程序从注册到公开发布工作流]]
+- [[81_WorkFlow 工作流/Android/通过ADB部署Mihon中文漫画阅读环境_工作流|通过 ADB 部署 Mihon 中文漫画阅读环境工作流]]
+- [[70_LLM_Wiki 知识库/AI_Programming_Product/Mihon 中文漫画阅读环境部署经验|Mihon 中文漫画部署经验与验收边界]]
 - 编程语言和框架
 - 本地开发环境
 - 项目脚手架
