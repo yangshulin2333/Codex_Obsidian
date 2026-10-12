@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Historical source index. No binaries or game assets are bundled.",
+  "pathBase": "Local environment historicalEvidenceRoot role; no machine path is a workflow default.",
+  "artifacts": [
+    {
+      "artifactId": "hist-brookhaven-brookhaven-capture-terrain-full",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Brookhaven-client-archive-20261009/export-tools/brookhaven_capture_terrain_full.luau",
+      "label": "三通道扩展采集",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-brookhaven-brookhaven-terrain-index-repair",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Brookhaven-client-archive-20261009/export-tools/brookhaven_terrain_index_repair.luau",
+      "label": "缺索引重读",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-brookhaven-capture-summary",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Brookhaven-client-archive-20261009/terrain/full-capture-complete-1/capture-summary.json",
+      "label": "独立补读后的来源说明",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-brookhaven-capture-validation",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Brookhaven-client-archive-20261009/terrain/full-capture-1/capture-validation.json",
+      "label": "Terrain 原始索引验收失败",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-brookhaven-merge-terrain-capture",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Brookhaven-client-archive-20261009/export-tools/merge_terrain_capture.py",
+      "label": "合并与来源记录",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-brookhaven-native-reopen-channel-verification",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Brookhaven-client-archive-20261009/terrain/native-reopen-channel-verification.json",
+      "label": "原生重新打开后的通道验证",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-brookhaven-prepare-brookhaven-terrain-restore",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Brookhaven-client-archive-20261009/export-tools/prepare_brookhaven_terrain_restore.py",
+      "label": "Studio 恢复准备",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-brookhaven-validate-terrain-rle",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Brookhaven-client-archive-20261009/export-tools/validate_terrain_rle.py",
+      "label": "RLE 独立验收",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-audit-rbxl-conversion",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/audit_rbxl_conversion.py",
+      "label": "XML/native 比较实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-build-dandysgameplay-package",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/build_dandysgameplay_package.py",
+      "label": "单场景构建与逐 entry 验证",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-build-dandysworld-combined-bundle",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/build_dandysworld_combined_bundle.py",
+      "label": "多场景总包构建",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-combined-package-verification",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/combined-package-verification.json",
+      "label": "已完成总包验收",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-complete-package-verification",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/complete-package-verification.json",
+      "label": "实战独立包验收报告",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-dandysgameplay-capture-all",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/dandysgameplay_capture_all.luau",
+      "label": "阶段流水线",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-dandysgameplay-capture-terrain-probe",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/dandysgameplay_capture_terrain_probe.luau",
+      "label": "小探针",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-dandysgameplay-inventory-client",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/dandysgameplay_inventory_client.luau",
+      "label": "带当前会话状态采集的 inventory 实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-dandysgameplay-run-export",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/dandysgameplay_run_export.luau",
+      "label": "导出参数与 start/finish 记录",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-download-assets",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/download_assets.py",
+      "label": "下载器",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-extract-bytecode-resources",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/supplement-pass-2/extract_bytecode_resources.py",
+      "label": "字节码静态资源提取",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-inspect-downloaded-models",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/inspect_downloaded_models.py",
+      "label": "实际模型/动画分类",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-native-studio-save-verification",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/native-studio-save-verification.json",
+      "label": "原生保存验证记录",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-native-studio-validation-summary",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/native-studio-validation-summary.json",
+      "label": "实战 native 静态审计与适用范围",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-offline-export-manifest",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/offline-export-manifest.json",
+      "label": "离线导出 manifest",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-prepare-offline-export",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/prepare_offline_export.py",
+      "label": "离线准备与修改记录实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-run-explicit-hls",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/run_explicit_hls.py",
+      "label": "明示 HLS 依赖解析实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-run-supplement-downloads",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/run_supplement_downloads.py",
+      "label": "增量任务",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-run-transient-recovery",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/run_transient_recovery.py",
+      "label": "瞬时故障恢复",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-summarize-native-audit",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/summarize_native_audit.py",
+      "label": "差异分类与审计摘要实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-validate-and-extract",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/export-tools/validate_and_extract.py",
+      "label": "复制、XML 与脚本提取",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-verify-bytecode-resource-evidence",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/supplement-pass-2/verify_bytecode_resource_evidence.py",
+      "label": "证据独立验证",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-gameplay-verify-downloaded-assets",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-Gameplay-client-archive-20261009/verify_downloaded_assets.py",
+      "label": "独立文件验收",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-lobby-cache-coverage-check",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-client-archive-20261009/cache-coverage-check.json",
+      "label": "检查范围与结果",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-lobby-check-current-missing-cache",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-client-archive-20261009/check_current_missing_cache.py",
+      "label": "当前缺失引用与缓存关联检查",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-dandy-lobby-hls-media-validation",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "DandysWorld-client-archive-20261009/assets/hls-dependencies/hls-media-validation.json",
+      "label": "大厅 HLS 最终证据",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview--evomon-20261010",
+      "role": "archivePackage",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010.zip",
+      "label": "完整压缩包",
+      "knownSha256": "396a21ce89b299c13e8f80acd6ceb28ac79e0d1b04bec202d1d5877157ff2235",
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-evomon",
+      "role": "nativeScene",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010/EvoMon_优化预览场景.rbxl",
+      "label": "EvoMon_优化预览场景.rbxl",
+      "knownSha256": "1066c844f56db29a36b827b23e31229b205685471248f83b09188326a7aeaac4",
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-evomon-20261010",
+      "role": "archiveDirectory",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010",
+      "label": "EvoMon 优化预览版",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-index",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010/scripts/index.json",
+      "label": "脚本统一索引",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-launcher-and-script-boundary-audit",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010/validation/launcher-and-script-boundary-audit.json",
+      "label": "入口与脚本边界独立审查",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-local-content-deployment",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010/validation/local-content-deployment.json",
+      "label": "已部署素材校验",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-optimization-summary",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010/optimization-summary.json",
+      "label": "优化摘要",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-recovery-summary",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010/scripts/reports/recovery-summary.json",
+      "label": "恢复摘要",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-studio-preview-verification",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010/validation/studio-preview-verification.json",
+      "label": "Studio 编辑/Play 验证",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-preview-tool-provenance",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon_优化预览版_含源码与启动入口_20261010/scripts/reports/tool-provenance.json",
+      "label": "工具版本、许可与 SHA-256",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-work-build-preview-scene",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon-optimization-work-20261010/build_preview_scene.py",
+      "label": "场景派生实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-work-complete-package-verification",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon-optimization-work-20261010/complete-package-verification.json",
+      "label": "最终 ZIP 验证报告",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-work-full-source-validation",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon-optimization-work-20261010/decompile/full-source-validation.json",
+      "label": "完整静态验收",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-work-package-local-content",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon-optimization-work-20261010/resource-audit/package_local_content.py",
+      "label": "配套素材与启动器实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-work-package-preview",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon-optimization-work-20261010/package_preview.py",
+      "label": "最终打包与校验实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-work-preview-conversion-record",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon-optimization-work-20261010/preview-conversion-record.json",
+      "label": "本次 Lune 格式转换记录",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-work-process-evomon-bytecode",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon-optimization-work-20261010/decompile/process_evomon_bytecode.py",
+      "label": "离线恢复与验证实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-evomon-work-tool-provenance",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "EvoMon-optimization-work-20261010/decompile/tool-provenance.json",
+      "label": "工具来源与 SHA",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-obsidian-auto-sync-verification",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "obsidian-auto-sync-verification-20261010.json",
+      "label": "Obsidian 自动同步历史验证",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-xeno-check-apply-ipv4-fix",
+      "role": "referenceImplementation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Xeno-check-20261009/apply-ipv4-fix.py",
+      "label": "历史补丁的版本与范围保护实现",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-xeno-check-diagnostic-summary",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Xeno-check-20261009/diagnostic-summary.json",
+      "label": "下载与初始诊断记录",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-xeno-check-readme",
+      "role": "historicalDocumentation",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Xeno-check-20261009/Legacy/Xeno-v1.3.60/ReadMe.txt",
+      "label": "Legacy ReadMe",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    },
+    {
+      "artifactId": "hist-xeno-check-repair-verification",
+      "role": "historicalReport",
+      "rootRole": "historicalEvidenceRoot",
+      "relativePath": "Xeno-check-20261009/repair-verification.json",
+      "label": "修复后的运行验证",
+      "knownSha256": null,
+      "verificationState": "historical-record-only-not-reverified"
+    }
+  ]
+}

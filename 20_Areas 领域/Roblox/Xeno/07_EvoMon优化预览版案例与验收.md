@@ -5,10 +5,12 @@ status: active
 owner: mixed
 source: mixed
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-12
 ---
 
 # EvoMon 优化预览版案例与验收
+
+**历史案例：** 本页所有游戏 ID、日期、文件名、版本、目录命名、地点/脚本数量和 hash 只描述这次已记录运行。当前默认只做原始归档，不能从本页自动启用恢复/预览或复制本机路径。环境与本次参数见 [[08_环境迁移与参数配置]]；外部证据统一由 artifactId/角色/相对路径解析。
 
 2026-10-10，在 `Roblox_EvoMon客户端补全归档V2_含启动入口_20261009` 的基础上生成独立优化副本：恢复可读脚本、清理不可用引用、修正预览启动问题，交付可用 Studio 打开的 `.rbxl` 和带入口 ZIP。结果是**静态客户端场景与源码浏览版**，原游戏玩法和服务端工程没有恢复。
 
@@ -18,10 +20,10 @@ updated: 2026-10-10
 
 - 原 Place：`134381727982611`，Universe：`9826885587`。
 - 原输入是之前捕获的 EvoMon V2，不是处理时电脑上的其他游戏。
-- 输出目录：[EvoMon 优化预览版](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon_优化预览版_含源码与启动入口_20261010>)。
-- 场景：[EvoMon_优化预览场景.rbxl](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon_优化预览版_含源码与启动入口_20261010/EvoMon_优化预览场景.rbxl>)。
-- 交付：[完整压缩包](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon_优化预览版_含源码与启动入口_20261010.zip>)。
-- 汇总：[optimization-summary.json](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon_优化预览版_含源码与启动入口_20261010/optimization-summary.json>)。
+- 输出目录：[EvoMon 优化预览版](09_历史案例资源索引.md#hist-evomon-preview-evomon-20261010)。
+- 场景：[EvoMon_优化预览场景.rbxl](09_历史案例资源索引.md#hist-evomon-preview-evomon)。
+- 交付：[完整压缩包](09_历史案例资源索引.md#hist-evomon-preview--evomon-20261010)。
+- 汇总：[optimization-summary.json](09_历史案例资源索引.md#hist-evomon-preview-optimization-summary)。
 
 | 项目 | 实际结果 | 含义 |
 |---|---:|---|
@@ -46,7 +48,7 @@ updated: 2026-10-10
 
 两份 MessagePack 脚本的 AST 输出含非 UTF-8 二进制字符串，使用保留原字节的解码方式复核，六种相关字节串均逐字保持。没有把丢失 AST 统计或 `return nil` 占位当成成功恢复，也没有运行原游戏或恢复后的游戏逻辑。
 
-证据：[脚本统一索引](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon_优化预览版_含源码与启动入口_20261010/scripts/index.json>)、[工具来源与 SHA](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon-optimization-work-20261010/decompile/tool-provenance.json>)、[完整静态验收](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon-optimization-work-20261010/decompile/full-source-validation.json>)。
+证据：[脚本统一索引](09_历史案例资源索引.md#hist-evomon-preview-index)、[工具来源与 SHA](09_历史案例资源索引.md#hist-evomon-work-tool-provenance)、[完整静态验收](09_历史案例资源索引.md#hist-evomon-work-full-source-validation)。
 
 ## 资源与场景清理
 
@@ -82,14 +84,14 @@ updated: 2026-10-10
 
 Studio 0.742.0.7421053 的实际测试结果：
 
-本次场景由 **Lune 0.10.5** 从派生 XML 转换生成 `.rbxl`，并完成二进制重开检查；随后由 Studio 实际编辑加载与 Play 预览验证。该生成路径没有使用 Studio SaveAs，不借旧原始归档的 SaveAs 证据证明本次优化生成过程。见 [格式转换记录](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon-optimization-work-20261010/preview-conversion-record.json>)。
+本次场景由 **Lune 0.10.5** 从派生 XML 转换生成 `.rbxl`，并完成二进制重开检查；随后由 Studio 实际编辑加载与 Play 预览验证。该生成路径没有使用 Studio SaveAs，不借旧原始归档的 SaveAs 证据证明本次优化生成过程。见 [格式转换记录](09_历史案例资源索引.md#hist-evomon-work-preview-conversion-record)。
 
 - 编辑加载通过，只有 `ArchivePreviewSetup` 和 `ArchivePreviewCamera` 两个脚本启用；Workspace 未锚定零件为 0。
 - 客户端自由相机、预览 GUI 正常出现；地点 2 和面板切换已测。
 - 最终编辑日志为空，Play 日志只有两个预览就绪信息，本次测试中权限/加载报错为 0。
 - 测试覆盖静态预览，不覆盖全部原玩法、所有资产未来账户/网络条件或全部恢复脚本运行。
 
-证据：[Studio 验收](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon_优化预览版_含源码与启动入口_20261010/validation/studio-preview-verification.json>)、[已部署素材校验](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon_优化预览版_含源码与启动入口_20261010/validation/local-content-deployment.json>)、[入口与脚本边界独立审查](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon_优化预览版_含源码与启动入口_20261010/validation/launcher-and-script-boundary-audit.json>)。
+证据：[Studio 验收](09_历史案例资源索引.md#hist-evomon-preview-studio-preview-verification)、[已部署素材校验](09_历史案例资源索引.md#hist-evomon-preview-local-content-deployment)、[入口与脚本边界独立审查](09_历史案例资源索引.md#hist-evomon-preview-launcher-and-script-boundary-audit)。
 
 ## 使用与交付校验
 
@@ -103,7 +105,7 @@ ZIP SHA256
 1066c844f56db29a36b827b23e31229b205685471248f83b09188326a7aeaac4
 ```
 
-[最终 ZIP 验收报告](<file:///C:/Users/long001/Documents/ChatGPT/Codex_X/EvoMon-optimization-work-20261010/complete-package-verification.json>)确认文件集合、CRC、逐条目大小/SHA 和原生场景 SHA；lock、缓存和处理中间 XML 不入最终包。
+[最终 ZIP 验收报告](09_历史案例资源索引.md#hist-evomon-work-complete-package-verification)确认文件集合、CRC、逐条目大小/SHA 和原生场景 SHA；lock、缓存和处理中间 XML 不入最终包。
 
 原 V2 的 `.rbxl`、原 XML、脚本索引和字节码数据没有改写。本轮导入历史 Python 解析器曾生成一枚 `__pycache__`，缓存清理受审批限制未完成，但没有带入新包；不声称原目录文件集合完全不变。后续只读导入先关闭 Python 缓存写入或使用工作区副本。
 

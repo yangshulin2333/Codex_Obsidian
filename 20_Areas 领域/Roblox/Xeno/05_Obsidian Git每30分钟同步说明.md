@@ -1,26 +1,28 @@
 ---
-type: workflow
+type: source
 domain: vault
-status: processing
+status: archived
 owner: mixed
 source: mixed
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-12
 ---
 
-# Obsidian Git 每 30 分钟同步说明
+# 历史环境记录：Obsidian Git 每 30 分钟同步
 
-公开仓库：[yangshulin2333/Codex_Obsidian](https://github.com/yangshulin2333/Codex_Obsidian)。**首次上传已成功，30 分钟同步配置已保存，但自动运行尚未验证通过。** 本页保留未完成状态，不能当作定时上传已正常工作的证明。
+保留原文件名以兼容旧链接。**本页仅记录旧环境的同步操作，不是 Xeno 工作流的依赖、迁移默认配置或当前定时任务状态。** 换机请按 [[08_环境迁移与参数配置]] 新建本机角色映射；归档操作不自动启动 Obsidian 同步、重写 Git 历史或推送。下述账号、仓库、日期、版本和设置都是历史事实。
+
+历史公开仓库：[yangshulin2333/Codex_Obsidian](https://github.com/yangshulin2333/Codex_Obsidian)。**首次上传已成功，30 分钟同步配置已保存，但自动运行尚未验证通过。** 本页保留未完成状态，不能当作定时上传已正常工作的证明。
 
 ## 已确认的公开范围
 
 全部普通笔记、脚本及小附件参与同步，包括钱包、支付、Finance_Life 和个人理财 MOC。仅排除大资产（视频、压缩包、模型/场景文件）、运行二进制、依赖/构建缓存、凭据文件和本地配置；未删除原始文件。
 
-原有 6 个提交已保留在 Vault 外的 `D:\AI\Codex_Obsidian_GitHistoryBackup_20261010_101250\.git`，同目录保存原状态、原 `.gitignore` 和原插件设置。新仓库使用干净 `main` 历史；嵌套项目的 Git 元数据保持原位，普通源码作为普通文件同步。备份保存了旧历史，不会出现在公开仓库中。
+原有 6 个提交当时保留在 Vault 外的资源角色 `historicalGitBackupRoot` 下的 `.git`（历史目录名 `Codex_Obsidian_GitHistoryBackup_20261010_101250`；角色直接映射该备份目录，实际根只在本地配置登记），同目录保存原状态、原 `.gitignore` 和原插件设置。新仓库使用干净 `main` 历史；嵌套项目的 Git 元数据保持原位，普通源码作为普通文件同步。备份保存了旧历史，不会出现在公开仓库中。
 
-## 当前检查结果（2026-10-10）
+## 历史检查结果（2026-10-10）
 
-- Vault：`D:\AI\Codex_Obsidian`。
+- Vault：资源角色 `vaultRoot`（历史目录名称 `Codex_Obsidian`；无默认盘符）。
 - Obsidian Git 2.38.3 已启用；Git 2.53.0 可用，正常凭据助手能验证 GitHub 账号。
 - 原分支 `main`，原仓库没有 remote 或 upstream。
 - 原设置 `autoSaveInterval=0`、`disablePush=true`，因此没有定时上传。
@@ -29,9 +31,9 @@ updated: 2026-10-10
 
 GitHub 普通 Git 阻止超过 100 MiB 的单文件。需要按 [[../../../70_LLM_Wiki 知识库/Vault/Git 远端同步前审计与资产边界|现有资产边界记录]] 先确认处理方式：[GitHub 官方大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)。
 
-## 已保存的插件设置
+## 当时保存的插件设置
 
-以下字段已保存到本机插件 `data.json`；保留原有通知和界面偏好。配置值与实际定时器运行状态需要分别验证：
+以下字段当时保存到原环境插件 `data.json`，保留原有通知和界面偏好。这里的历史 JSON 不应导入新电脑作为默认配置；配置值与实际定时器运行状态需要分别验证：
 
 ```json
 {
@@ -71,4 +73,4 @@ GitHub 普通 Git 阻止超过 100 MiB 的单文件。需要按 [[../../../70_LL
 
 后续需要在 Obsidian 中核对 Git 插件是否已初始化、自动操作是否暂停、实际 Git 可执行路径及错误信息，再完成一次自动提交/推送测试。原错误通知偏好仍保持关闭。新电脑需要独立配置 Git 登录和本地定时设置；插件本地配置文件不参与公开同步。
 
-本机证据：`C:\Users\long001\Documents\ChatGPT\Codex_X\obsidian-auto-sync-verification-20261010.json`。已有首次上传与手动同步能力不受这项待验证结论影响。
+历史同步证据：[[09_历史案例资源索引#hist-obsidian-auto-sync-verification|hist-obsidian-auto-sync-verification]]；按 `historicalEvidenceRoot` 与根内相对路径定位。已有首次上传与手动同步能力不受这项待验证结论影响。
