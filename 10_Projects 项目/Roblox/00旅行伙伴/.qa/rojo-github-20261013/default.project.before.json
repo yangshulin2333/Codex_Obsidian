@@ -1,0 +1,71 @@
+{
+  "name": "TravelBuddy",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Framework": {
+        "$path": "src/ReplicatedStorage/Framework"
+      },
+      "Game": {
+        "$path": "src/ReplicatedStorage/Game"
+      },
+      "Module": {
+        "$path": "src/ReplicatedStorage/Module"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "ServerPackages": {
+        "$className": "Folder",
+        "ProfileStore": {
+          "$path": "ServerPackages/_Index/lm-loleris_profilestore@1.0.3/profilestore/ProfileStore.luau"
+        }
+      },
+      "Server": {
+        "$path": "src/ServerScriptService/Server"
+      },
+      "UnitTestRunner": {
+        "$path": "tests/UnitTestRunner.server.lua",
+        "$properties": {
+          "Disabled": true
+        }
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Game": {
+        "$path": "src/ServerStorage/Game"
+      },
+      "UnitTest": {
+        "$path": "tests/UnitTest"
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "Game": {
+        "$className": "Folder",
+        "World": {
+          "$className": "Folder",
+          "TravelIsland": {
+            "$path": "src/Workspace/TravelIsland.rbxmx"
+          },
+          "$ignoreUnknownInstances": true
+        },
+        "Runtime": {
+          "$className": "Folder",
+          "$ignoreUnknownInstances": true
+        }
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/Client"
+        }
+      }
+    }
+  }
+}
