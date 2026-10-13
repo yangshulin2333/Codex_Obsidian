@@ -1,0 +1,85 @@
+{
+  "original_sources_unchanged": 3,
+  "game_files_unchanged": 117,
+  "new_game_files": [],
+  "documents": {
+    "game": {
+      "path": "D:\\AI\\Codex_Obsidian\\10_Projects 项目\\Roblox\\00旅行伙伴\\01_完整游戏策划案_Demo自主出游版.docx",
+      "sha256": "211a390cf36ad3497231fa75e4bbd8d822db6525cd451f4e8a906e317f0cef54",
+      "paragraphs": 183,
+      "tables": 3,
+      "pages": 13,
+      "page_sha256": {
+        "page-1.png": "a9f449db4cee3b222e0d692b9b2dda1c0e8497b224b32d1835c2228cf3818e4d",
+        "page-2.png": "207c191f1b9ec4eb5b97678b21d4ace9c2865c251285831755da5b70d382de40",
+        "page-3.png": "7bd04fb62688a9a35e0dff82a99ca111911a9719e1c03381648c96885b48023f",
+        "page-4.png": "f2fa24b936a819e94f15b8951032fb76dc2c7f017c5e0cb3a0c3e1afc4ec3a43",
+        "page-5.png": "bbf2554e5577beee7228a48f674bd676e00657c15bff80ac1df27e3bd60720a2",
+        "page-6.png": "5c4f5c46dc424d14864facacf39e3e416449347727aae41b9467c2258fce98b5",
+        "page-7.png": "1599188e405b3db4667f0bf60d8a9fb2847d66467aceca06ea0f52e6d46ef4b6",
+        "page-8.png": "e053993bbf36dd4d16cc79ed8af8ffd5ed1c0497f44746c6e386e5049be46af8",
+        "page-9.png": "05cf040ef02772e16f8db6791c5d1935f524c2edb2a5abe8164b73325f370062",
+        "page-10.png": "69752c0fefcc2c8a15276de1b86281abd3c60c7bc0840ca1ced74dca51452946",
+        "page-11.png": "da7f99b46c265414b61545fa64972cec450ac80355dd9a7d3dd00f6f633e73bb",
+        "page-12.png": "09b13872ef150b7589f404705cfd9eb1137477404a7e911c0bc5b7487a0c68df",
+        "page-13.png": "aec5a157202abbe78ad59dbfd56ffbc8c4b5283cc99ab9157cea8b4128033994"
+      },
+      "visual_review": "All pages inspected at original size; identical page hashes reuse prior inspection."
+    },
+    "program": {
+      "path": "D:\\AI\\Codex_Obsidian\\10_Projects 项目\\Roblox\\00旅行伙伴\\02_程序执行方案_Demo自主出游版.docx",
+      "sha256": "73888b678137ab30341980f43daf12fe5bf8e17d4d2736eff2de11d8f3e68344",
+      "paragraphs": 69,
+      "tables": 10,
+      "pages": 12,
+      "page_sha256": {
+        "page-1.png": "cfd18642242e1992d7762c784dcfa085552773ea2eb95ce473ffa1fbca6695f9",
+        "page-2.png": "207c191f1b9ec4eb5b97678b21d4ace9c2865c251285831755da5b70d382de40",
+        "page-3.png": "7bd04fb62688a9a35e0dff82a99ca111911a9719e1c03381648c96885b48023f",
+        "page-4.png": "7c37073a249d5d374a75832c058a8bee9439a47044e2b3ecbd04116e0b72335d",
+        "page-5.png": "48d1e97e4bd31d1276dd921cef293fe45863ec29552fabbd50bcd6b401c69434",
+        "page-6.png": "5babc298795f0dce2c5e6bacf73d7010b3f7a024bbe69303449644393961c437",
+        "page-7.png": "526bfdbfaebb9f40cd84ae56fa69f891321568386bca7abe4f000008fb99d864",
+        "page-8.png": "19c7e48fe889c949a18a6490d3beef6ecca7f0b03d0862010b6d9a64b1fc9750",
+        "page-9.png": "5517b204d1b8fb34134b96db4f7928d44d0488a8877bca7696dc518ca86b9738",
+        "page-10.png": "7cdbf0072ad6246957fc0383ff70e0077929101b9dae097b8777967cadd18b74",
+        "page-11.png": "2055fecf8b8eb6c2f2bd15c12496134b1f31bb58971bae9ae4d93ba5540bf035",
+        "page-12.png": "859024eae374e013102c2d00bd3e5085d1b23e01da209c5937b56c556a038240"
+      },
+      "visual_review": "All pages inspected at original size; identical page hashes reuse prior inspection."
+    },
+    "art": {
+      "path": "D:\\AI\\Codex_Obsidian\\10_Projects 项目\\Roblox\\00旅行伙伴\\03_美术需求方案_Demo自主出游版.docx",
+      "sha256": "fecce802d23b8b413d30a2dcbc5997ccae77ac0a91ea9e9448d4b77553da8cfa",
+      "paragraphs": 160,
+      "tables": 21,
+      "pages": 22,
+      "page_sha256": {
+        "page-1.png": "33a4c5b123499a7a000d9b0f1717d350656acb5eaaf51765e1a2a68b81ad84dc",
+        "page-2.png": "207c191f1b9ec4eb5b97678b21d4ace9c2865c251285831755da5b70d382de40",
+        "page-3.png": "7bd04fb62688a9a35e0dff82a99ca111911a9719e1c03381648c96885b48023f",
+        "page-4.png": "f53da4d606e256ed5156e5d915c3f2f0f50978e5b0eb00b937fd549919fa0af5",
+        "page-5.png": "4b01ea5f494c10779e6690c012eb0f3b93c916349752a2c993ab17cd1eedf51a",
+        "page-6.png": "613f928dc62e310b35a69bffa2c464370c7f845207899713d14db3fd9f76f4a4",
+        "page-7.png": "55bf7fc87e97cf813100b4bf7c89809381ef7af07314215436c011a17730895a",
+        "page-8.png": "568af2b77e00da2efd3ef438e18b24df33b1b2eab46f78cc7f8520cf665f35cf",
+        "page-9.png": "af3c1fc5252b1d718158e851c885476c170caed1a7dc912db3c88d3304973256",
+        "page-10.png": "21b4b7ae2ef93a16524f83e153fc2877172c0beb4eee224519fd907b490275b9",
+        "page-11.png": "63ead1cab7ae5f826cad04f7449dd9e4938d6672cfd0bf92a3405c5e718406da",
+        "page-12.png": "a19984cffeef91eb2a6edba030cebfd19fc22e70d8809b2fe6c61dc72e8d8f5c",
+        "page-13.png": "d15c797048918653420c6479ebcc0750af5d9e3a52d6b09493e6cbc63801134e",
+        "page-14.png": "8592838aa32f934f0fee418d027903fc5e5a7c01945e937b2d6c378bd47408e7",
+        "page-15.png": "8243c221f3b4772e7375a4d7cd590c9b19d4d21df39f40908ac1fde8e825bd41",
+        "page-16.png": "9b7103dad76409d9d3848f175890b2cfee61ab5394250008b335f53d8b22997b",
+        "page-17.png": "e1d4493125000aaaa5563b22ac299d541cf96d3e6de3bd2592bb5582563f049f",
+        "page-18.png": "413f8af96663ac41a6a1a90ccac4eae95e2aaa34948575cfc8290a63462d41f3",
+        "page-19.png": "639dd354c8414d62390fc1400f7371cc8bd5968f50928aa68d5761afa0b329a3",
+        "page-20.png": "680256b55b9ee3f44569ac8957c7cc4c6aa40220d9baa4181e61612033b417ae",
+        "page-21.png": "d507c507a5232519f7d5391bc1392fb68bc03cee54e99f8aad4d732f9718ffda",
+        "page-22.png": "1e9e2a42926ae6d6df7e8c1de96be346fb6a7bae2f67d2af2bd264a99904f02b"
+      },
+      "visual_review": "All pages inspected at original size; identical page hashes reuse prior inspection."
+    }
+  },
+  "common_rules_and_parameter_tables": "identical in all three documents"
+}
