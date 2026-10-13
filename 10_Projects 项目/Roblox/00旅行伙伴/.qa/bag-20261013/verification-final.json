@@ -1,0 +1,161 @@
+{
+  "phase": "Supply packing and unpacking",
+  "fields": [
+    "WarehouseSupplies",
+    "PackedSupplies"
+  ],
+  "capacity": 3,
+  "version": 2,
+  "scope": "No autonomous decisions or automatic return settlement implemented in this phase",
+  "framework_files_unchanged": 33,
+  "reload_unchanged": {
+    "warehouse": 3,
+    "revision": 71,
+    "packed": 2,
+    "canManage": true,
+    "backend": "ProfileStore",
+    "inventory": {
+      "item_rope": 2,
+      "item_clock": 1,
+      "special_conch": 6
+    },
+    "coins": 2,
+    "state": "ReturnPending",
+    "postcards": {
+      "post_shallow_01": 2,
+      "post_shallow_02": 3,
+      "post_near_04": 1,
+      "post_shallow_03": 1,
+      "post_near_02": 1,
+      "post_near_05": 1
+    },
+    "version": 2,
+    "wood": 2,
+    "homeLevel": 2,
+    "shipLevel": 2,
+    "journeyId": "45313cc3-36ce-4f77-a80b-d7270013a455",
+    "boxCount": 3
+  },
+  "live_request_checks": {
+    "final": {
+      "warehouse": 4,
+      "revision": 70,
+      "version": 2,
+      "packed": 1,
+      "coins": 2
+    },
+    "results": [
+      {
+        "ok": true,
+        "revision": 70,
+        "test": "装入一份",
+        "packed": 1,
+        "warehouse": 4
+      },
+      {
+        "ok": true,
+        "revision": 70,
+        "test": "原编号重试",
+        "packed": 1,
+        "warehouse": 4
+      },
+      {
+        "ok": false,
+        "revision": 70,
+        "code": "OPERATION_CONFLICT",
+        "test": "原编号改变数量",
+        "packed": 1,
+        "warehouse": 4
+      },
+      {
+        "ok": false,
+        "revision": 70,
+        "code": "INVALID_REQUEST",
+        "test": "非法数量 0",
+        "packed": 1,
+        "warehouse": 4
+      },
+      {
+        "ok": false,
+        "code": "INVALID_REQUEST",
+        "test": "非法数量 -1"
+      },
+      {
+        "ok": false,
+        "code": "INVALID_REQUEST",
+        "test": "非法数量 1.5"
+      },
+      {
+        "ok": false,
+        "revision": 70,
+        "code": "BAG_FULL",
+        "test": "超出三份容量",
+        "packed": 1,
+        "warehouse": 4
+      },
+      {
+        "ok": false,
+        "revision": 70,
+        "code": "NOT_ENOUGH_PACKED_SUPPLIES",
+        "test": "收回超过行囊数量",
+        "packed": 1,
+        "warehouse": 4
+      }
+    ]
+  },
+  "voyage_read_only": {
+    "enabled": true,
+    "after": {
+      "warehouse": 3,
+      "packed": 1
+    },
+    "endAt": 1791864037,
+    "requestCode": "BAG_READ_ONLY",
+    "state": "Voyaging",
+    "requestOk": false,
+    "now": 1791864023,
+    "before": {
+      "warehouse": 3,
+      "packed": 1
+    },
+    "hint": "伙伴正在出游或尚未靠岸，行囊只能查看。归家后可调整。",
+    "bagVisible": true,
+    "canManage": false,
+    "buttonsActive": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "after_docking": {
+    "state": "ReturnPending",
+    "buttons": [
+      true,
+      true
+    ],
+    "now": 1791864047,
+    "packed": 1,
+    "endAt": 1791864037,
+    "returnSeconds": 5,
+    "warehouse": 3,
+    "canManage": true
+  },
+  "checks": [
+    "29 Domain tests",
+    "64 ConfigTool tests",
+    "Service/World/Native/UI",
+    "StyLua and Selene",
+    "ModuleBase and RojoWorkflow",
+    "64 scripts compiled"
+  ],
+  "studio_final": "Play; own preparation table; Bag UI open; no temporary QA script retained",
+  "test_purchase": "Purchased 5 supplies through the existing shop; 25 test coins spent. One supply used for a short voyage; remaining 3 warehouse + 1 packed. Existing pending voyage collected through normal UI. No profile reset or test currency injection.",
+  "image": "D:\\AI\\Codex_Obsidian\\10_Projects 项目\\Roblox\\00旅行伙伴\\assets\\行囊装取_Studio验证.png",
+  "assets": {
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\Workspace\\TravelIsland.rbxmx": "bd8f254725f4e88fc2a0a7df26d766498224480fff2bbfac8fe5465876f71a36",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerStorage\\Game\\Resources\\Models\\TravelBuddy\\PreparationStation.rbxmx": "1163066630267fc11d1b051c4aa54f7d5f4c9a1e81433777c677269c354c1bb9",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ReplicatedStorage\\Game\\Resources\\UI\\TravelBuddy\\TravelWindow.rbxmx": "47559526a971ff1e4a75a5d20a13bd346e4d4c9db67522ba7255d9e11591b4d0",
+    "F:\\HunyueRoblox\\TravelBuddy\\build\\TravelBuddy-Demo.rbxlx": "a822505b5f775e90cb247cc536da198743f904470023dc1d7a435f191a9b49a5"
+  }
+}
