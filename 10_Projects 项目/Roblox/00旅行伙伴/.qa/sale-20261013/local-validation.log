@@ -1,0 +1,171 @@
+[Validate-ModuleBase] 使用 Rokit 工具: wally -> C:\Users\long001\.rokit\bin\wally.exe
+[Validate-ModuleBase] 使用 Rokit 工具: stylua -> C:\Users\long001\.rokit\bin\stylua.exe
+[Validate-ModuleBase] 使用 Rokit 工具: selene -> C:\Users\long001\.rokit\bin\selene.exe
+[Validate-ModuleBase] 使用 Rokit 工具: rojo -> C:\Users\long001\.rokit\bin\rojo.exe
+[Validate-ModuleBase] 依赖已存在，跳过 wally install，避免中断正在运行的 Rojo。
+Results:
+0 errors
+0 warnings
+0 parse errors
+Building project 'TravelBuddy'
+Built project to TravelBuddy_Base_Check.rbxlx
+MODULE_BASE_CHECK_OK
+test_reserved_fields_and_primary_keys_export_without_changing_data (test_generation_safety.FieldGenerationTest.test_reserved_fields_and_primary_keys_export_without_changing_data) ... ok
+test_failed_removal_without_previous_output_also_preserves_recovery_directory (test_generation_safety.OutputRecoveryTest.test_failed_removal_without_previous_output_also_preserves_recovery_directory) ... ok
+test_failure_before_server_backup_preserves_untouched_server (test_generation_safety.OutputRecoveryTest.test_failure_before_server_backup_preserves_untouched_server) ... ok
+test_install_failure_restores_both_scopes_and_removes_temporary_files (test_generation_safety.OutputRecoveryTest.test_install_failure_restores_both_scopes_and_removes_temporary_files) ... ok
+test_keyboard_interrupt_during_install_restores_previous_outputs (test_generation_safety.OutputRecoveryTest.test_keyboard_interrupt_during_install_restores_previous_outputs) ... ok
+test_multiple_recovery_failures_preserve_both_old_outputs (test_generation_safety.OutputRecoveryTest.test_multiple_recovery_failures_preserve_both_old_outputs) ... ok
+test_removal_failure_preserves_old_backup_and_restores_other_scope (test_generation_safety.OutputRecoveryTest.test_removal_failure_preserves_old_backup_and_restores_other_scope) ... ok
+test_server_restore_failure_keeps_backup_and_still_restores_shared (test_generation_safety.OutputRecoveryTest.test_server_restore_failure_keeps_backup_and_still_restores_shared) ... ok
+test_staging_write_failure_leaves_all_previous_outputs_untouched (test_generation_safety.OutputRecoveryTest.test_staging_write_failure_leaves_all_previous_outputs_untouched) ... ok
+test_temporary_cleanup_failure_does_not_replace_original_install_error (test_generation_safety.OutputRecoveryTest.test_temporary_cleanup_failure_does_not_replace_original_install_error) ... ok
+test_asset_format_rejects_wrong_schema_type (test_import_config.ImportConfigTest.test_asset_format_rejects_wrong_schema_type) ... ok
+test_asset_id_normalizes_without_numeric_precision_loss (test_import_config.ImportConfigTest.test_asset_id_normalizes_without_numeric_precision_loss) ... ok
+test_asset_id_rejects_bad_text_numeric_cells_and_blank (test_import_config.ImportConfigTest.test_asset_id_rejects_bad_text_numeric_cells_and_blank) ... ok
+test_asset_tables_reject_duplicate_keys_and_export_content_ids (test_import_config.ImportConfigTest.test_asset_tables_reject_duplicate_keys_and_export_content_ids) ... ok
+test_atomic_write_cleanup_failure_keeps_committed_outputs (test_import_config.ImportConfigTest.test_atomic_write_cleanup_failure_keeps_committed_outputs) ... ok
+test_atomic_write_keeps_backup_outside_source_tree (test_import_config.ImportConfigTest.test_atomic_write_keeps_backup_outside_source_tree) ... ok
+test_atomic_write_matches_check_mode (test_import_config.ImportConfigTest.test_atomic_write_matches_check_mode) ... ok
+test_check_mode_never_creates_workbook_structure (test_import_config.ImportConfigTest.test_check_mode_never_creates_workbook_structure) ... ok
+test_data_under_blank_unknown_column_is_rejected (test_import_config.ImportConfigTest.test_data_under_blank_unknown_column_is_rejected) ... ok
+test_description_must_match_schema (test_import_config.ImportConfigTest.test_description_must_match_schema) ... ok
+test_duplicate_id_is_rejected (test_import_config.ImportConfigTest.test_duplicate_id_is_rejected) ... ok
+test_excel_true_text_is_accepted (test_import_config.ImportConfigTest.test_excel_true_text_is_accepted) ... ok
+test_export_and_integer_schema_flags_are_typed_constraints (test_import_config.ImportConfigTest.test_export_and_integer_schema_flags_are_typed_constraints) ... ok
+test_export_false_validates_fields_without_emitting_them (test_import_config.ImportConfigTest.test_export_false_validates_fields_without_emitting_them) ... ok
+test_formatted_error_includes_sheet_and_cell (test_import_config.ImportConfigTest.test_formatted_error_includes_sheet_and_cell) ... ok
+test_formula_is_rejected (test_import_config.ImportConfigTest.test_formula_is_rejected) ... ok
+test_generation_is_deterministic (test_import_config.ImportConfigTest.test_generation_is_deterministic) ... ok
+test_integer_fields_reject_fractions_without_restricting_decimal_fields (test_import_config.ImportConfigTest.test_integer_fields_reject_fractions_without_restricting_decimal_fields) ... ok
+test_invalid_number_array_is_rejected (test_import_config.ImportConfigTest.test_invalid_number_array_is_rejected) ... ok
+test_missing_reference_is_rejected (test_import_config.ImportConfigTest.test_missing_reference_is_rejected) ... ok
+test_missing_required_value_is_rejected (test_import_config.ImportConfigTest.test_missing_required_value_is_rejected) ... ok
+test_missing_sheet_is_rejected (test_import_config.ImportConfigTest.test_missing_sheet_is_rejected) ... ok
+test_multiple_workbooks_are_merged (test_import_config.ImportConfigTest.test_multiple_workbooks_are_merged) ... ok
+test_number_array_is_parsed (test_import_config.ImportConfigTest.test_number_array_is_parsed) ... ok
+test_number_below_minimum_is_rejected (test_import_config.ImportConfigTest.test_number_below_minimum_is_rejected) ... ok
+test_number_limit_on_string_is_invalid_schema (test_import_config.ImportConfigTest.test_number_limit_on_string_is_invalid_schema) ... ok
+test_optional_image_asset_ids_allow_pending_records_without_fake_ids (test_import_config.ImportConfigTest.test_optional_image_asset_ids_allow_pending_records_without_fake_ids) ... ok
+test_real_workbook_matches_schema (test_import_config.ImportConfigTest.test_real_workbook_matches_schema) ... ok
+test_run_import_syncs_then_generates (test_import_config.ImportConfigTest.test_run_import_syncs_then_generates) ... ok
+test_sheet_in_wrong_workbook_is_rejected (test_import_config.ImportConfigTest.test_sheet_in_wrong_workbook_is_rejected) ... ok
+test_sync_creates_missing_workbook_sheet_and_headers (test_import_config.ImportConfigTest.test_sync_creates_missing_workbook_sheet_and_headers) ... ok
+test_sync_does_not_rewrite_conflicting_existing_headers (test_import_config.ImportConfigTest.test_sync_does_not_rewrite_conflicting_existing_headers) ... ok
+test_sync_is_idempotent_and_preserves_existing_data (test_import_config.ImportConfigTest.test_sync_is_idempotent_and_preserves_existing_data) ... ok
+test_sync_only_appends_new_trailing_columns (test_import_config.ImportConfigTest.test_sync_only_appends_new_trailing_columns) ... ok
+test_sync_preserves_drafts_without_english_headers (test_import_config.ImportConfigTest.test_sync_preserves_drafts_without_english_headers) ... ok
+test_sync_preserves_occupied_trailing_columns (test_import_config.ImportConfigTest.test_sync_preserves_occupied_trailing_columns) ... ok
+test_sync_write_failure_keeps_original_workbook (test_import_config.ImportConfigTest.test_sync_write_failure_keeps_original_workbook) ... ok
+test_type_header_must_match_schema (test_import_config.ImportConfigTest.test_type_header_must_match_schema) ... ok
+test_unknown_column_is_rejected (test_import_config.ImportConfigTest.test_unknown_column_is_rejected) ... ok
+test_unknown_enum_is_rejected (test_import_config.ImportConfigTest.test_unknown_enum_is_rejected) ... ok
+test_unknown_sheet_is_rejected (test_import_config.ImportConfigTest.test_unknown_sheet_is_rejected) ... ok
+test_valid_model_generates_shared_and_server_outputs (test_import_config.ImportConfigTest.test_valid_model_generates_shared_and_server_outputs) ... ok
+test_validation_failure_keeps_previous_outputs (test_import_config.ImportConfigTest.test_validation_failure_keeps_previous_outputs) ... ok
+test_wrong_type_is_rejected (test_import_config.ImportConfigTest.test_wrong_type_is_rejected) ... ok
+test_business_renames_and_reordering_are_not_inferred (test_import_config.NoteColumnTest.test_business_renames_and_reordering_are_not_inferred) ... ok
+test_complex_references_block_note_sync_and_keep_original_bytes (test_import_config.NoteColumnTest.test_complex_references_block_note_sync_and_keep_original_bytes) ... ok
+test_generated_integer_input_aids_remain_safe_during_note_insertion (test_import_config.NoteColumnTest.test_generated_integer_input_aids_remain_safe_during_note_insertion) ... ok
+test_note_schema_requires_last_non_exported_column (test_import_config.NoteColumnTest.test_note_schema_requires_last_non_exported_column) ... ok
+test_safe_note_move_and_insertion_preserve_cell_and_column_metadata (test_import_config.NoteColumnTest.test_safe_note_move_and_insertion_preserve_cell_and_column_metadata) ... ok
+test_unnamed_nonempty_columns_block_note_sync_without_changing_file (test_import_config.NoteColumnTest.test_unnamed_nonempty_columns_block_note_sync_without_changing_file) ... ok
+test_validation_requires_note_last_even_before_automatic_sync (test_import_config.NoteColumnTest.test_validation_requires_note_last_even_before_automatic_sync) ... ok
+test_created_rules_match_schema_and_preserve_refresh_data (test_input_aids.InputAidsTests.test_created_rules_match_schema_and_preserve_refresh_data) ... ok
+test_refresh_preserves_conflicting_draft_and_foreign_rules (test_input_aids.InputAidsTests.test_refresh_preserves_conflicting_draft_and_foreign_rules) ... ok
+test_unsafe_inline_enum_does_not_generate_broken_dropdown (test_input_aids.InputAidsTests.test_unsafe_inline_enum_does_not_generate_broken_dropdown) ... ok
+
+----------------------------------------------------------------------
+Ran 64 tests in 2.304s
+
+OK
+CONFIG_OUTPUT_CHECK_OK
+CONFIG_TOOL_CHECK_OK
+[Serve-Rojo] 依赖已存在，跳过 wally install。更新依赖请停止服务后使用 -InstallDependencies。
+[Serve-Rojo] 启动服务: 127.0.0.1:34874
+MOCK_SERVE_STARTED
+[Serve-Rojo] 启动服务: 127.0.0.1:34874
+MOCK_SERVE_STARTED
+[
+    {
+        "scenario":  "existing",
+        "installs":  0,
+        "blocked":  false,
+        "error":  null
+    },
+    {
+        "scenario":  "missing-active",
+        "installs":  0,
+        "blocked":  true,
+        "error":  "WALLY_INSTALL_BLOCKED: 请先停止 Rojo serve，再安装依赖。运行中的 PID: 123"
+    },
+    {
+        "scenario":  "missing-idle",
+        "installs":  1,
+        "blocked":  false,
+        "error":  null
+    }
+]
+ROJO_WORKFLOW_CHECK_OK
+PASS new save and buying supplies never plan or auto pack
+PASS first preparation saves one deadline and departure consumes once
+PASS saved preparation does not reroll on reconnect before or after its deadline
+PASS late offline advance auto settles one saved trip then prepares at load time
+PASS production and Studio preparation windows never use voyage time scale
+PASS partial bag changes preserve deadline and emptying cancels only waiting
+PASS manual pause survives reconnect and resource changes require explicit resume
+PASS deadline beats stale pause and a failed request never rolls departure back
+PASS external dispatch and extra pause fields cannot control route or timing
+PASS weights only choose unlocked seas and save exact selected long journey
+PASS ship construction cancels only waiting and resumes same route after completion
+PASS full box area blocks planning and opening a box starts preparation
+PASS rest and docking must both finish before another preparation
+PASS first rewards stay hidden and auto return and open grant exactly once
+PASS long voyage snapshots quantity and constant wood against config edits
+PASS purchase replay is idempotent and conflicts or stale intent cannot charge
+PASS pruned receipt cannot replay an old purchase revision
+PASS supply requests reject malformed quantities and client fields atomically
+PASS bag capacity and replay conserve supplies without resetting preparation
+PASS bag and pause read only at sea and returning but allow adjustment once docked
+PASS automatic deposit cannot bypass docking and debug return keeps animation minimum
+PASS upgrade keeps one supply or purchase funds and completes once
+PASS home construction runs during travel and ship waits until docked
+PASS fixed price sales preserve discoveries and public copies
+PASS selling requested quantities uses server prices and retains unselected items
+PASS malformed sale quantities ids and client prices leave all assets unchanged
+PASS batch commodity sale retains specials boxes wood supplies cards and discoveries
+PASS batch sale with only specials or unsellable commodities changes nothing
+PASS sale receipts prevent duplicate gains conflicts and stale changes
+PASS legacy batch sale receipt returns its original result without selling again
+PASS relief never auto packs and cannot be farmed with other sellable assets
+PASS settled trip cannot grant again after receipt pruning
+PASS integer bounds and autonomy invariants reject corrupt saves
+PASS v1 migration follows all steps and preserves receipts and assets
+PASS v2 migration keeps packed supplies and active trip without charging again
+PASS migration rejects malformed conflicting unknown overflow saves without mutation
+PASS automatic arrival deposits assets once and rests from actual arrival
+PASS viewing return is persisted read state without assets or a new journey gate
+PASS saved rest seconds survive debug or config changes without a model context
+PASS v3 migration preserves pending plan pause random state and receipts
+PASS legacy pending return auto settles once with real arrival deadline
+PASS legacy claimed migration keeps rest and assets and blocks old claim receipts
+PASS latest return public whitelist hides sealed contents and validates saved summaries
+PASS plan validation rejects routes deadlines pause and absent random state
+TravelDomain: 44 passed, 0 failed
+Generated config + supply bag + autonomous preparation + first loop + ship unlock + second voyage: PASS
+TRAVEL_SERVICE_OK: autonomous prepare/depart/settle, exact offline arrival/rest, duplicate settlement safety, persistent return read marker independent of next preparation, v1/v2/v3 migration without recharging, bag and facility boundaries, separate Sell/Shop counters, authoritative sale quantity/price, commodity-only batch sale retaining specials, sale receipts/conflicts/stale safety, blocked manual dispatch/claim, account isolation, sealed reward privacy, failed update rollback, loading retry, visual fault isolation, production timing
+TRAVEL_WORLD_SERVICE_OK: four plots, shared sale/range boundary, independent supply entry, bag ownership matrix, replaceable appearance, preparation pose fallback, retired dispatch, levels, clock return, cleanup, session guard, negative Studio IDs, vacancy refill
+TravelIsland NATIVE_OK nodes=206 prompts=4
+HomeLv1 NATIVE_OK nodes=20 prompts=1
+HomeLv2 NATIVE_OK nodes=24 prompts=1
+ShipLv1 NATIVE_OK nodes=20 prompts=3
+ShipLv2 NATIVE_OK nodes=24 prompts=3
+Frog NATIVE_OK nodes=19 prompts=0
+Container NATIVE_OK nodes=10 prompts=1
+PreparationStation NATIVE_OK nodes=14 prompts=1
+PlotRuntime NATIVE_OK nodes=0 prompts=0
+Travel UI passed: native roots, paths, style references, touch targets, sale/detail scroll layouts and quantity controls, backpack guidance, autonomous plan controls, placeholders and client ownership.
+Building project 'TravelBuddy'
+Built project to TravelBuddy-Demo.rbxlx
+TRAVEL_BUILD_OK: four plots, native templates/UI, private weights, explicit registration, persistent backend selection, disabled tests; compiled 64 scripts
+TRAVEL_DEMO_CHECK_OK: F:\HunyueRoblox\TravelBuddy\build\TravelBuddy-Demo.rbxlx

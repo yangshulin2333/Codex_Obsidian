@@ -1,0 +1,86 @@
+--!strict
+-- 此文件由 Excel Config 工具自动生成，请勿手动修改。
+-- 来源：design/config/workbooks/TravelConfig.xlsx / TravelPostcards
+
+return {
+	["post_shallow_01"] = {
+		["Id"] = "post_shallow_01",
+		["SeaId"] = "shallow",
+		["Title"] = "浅滩日落",
+		["ImageId"] = "post_shallow_01",
+		["Description"] = "海蛙从浅滩带回的旅行记录。",
+		["Order"] = 1,
+	},
+	["post_shallow_02"] = {
+		["Id"] = "post_shallow_02",
+		["SeaId"] = "shallow",
+		["Title"] = "灯塔前的海蛙",
+		["ImageId"] = "post_shallow_02",
+		["Description"] = "海蛙从浅滩带回的旅行记录。",
+		["Order"] = 2,
+	},
+	["post_shallow_03"] = {
+		["Id"] = "post_shallow_03",
+		["SeaId"] = "shallow",
+		["Title"] = "沙滩午后",
+		["ImageId"] = "post_shallow_03",
+		["Description"] = "海蛙从浅滩带回的旅行记录。",
+		["Order"] = 3,
+	},
+	["post_shallow_04"] = {
+		["Id"] = "post_shallow_04",
+		["SeaId"] = "shallow",
+		["Title"] = "海鸥来信",
+		["ImageId"] = "post_shallow_04",
+		["Description"] = "海蛙从浅滩带回的旅行记录。",
+		["Order"] = 4,
+	},
+	["post_shallow_05"] = {
+		["Id"] = "post_shallow_05",
+		["SeaId"] = "shallow",
+		["Title"] = "月光码头",
+		["ImageId"] = "post_shallow_05",
+		["Description"] = "海蛙从浅滩带回的旅行记录。",
+		["Order"] = 5,
+	},
+	["post_near_01"] = {
+		["Id"] = "post_near_01",
+		["SeaId"] = "near",
+		["Title"] = "近海晨光",
+		["ImageId"] = "post_near_01",
+		["Description"] = "海蛙从近海带回的旅行记录。",
+		["Order"] = 6,
+	},
+	["post_near_02"] = {
+		["Id"] = "post_near_02",
+		["SeaId"] = "near",
+		["Title"] = "鲸鱼的问候",
+		["ImageId"] = "post_near_02",
+		["Description"] = "海蛙从近海带回的旅行记录。",
+		["Order"] = 7,
+	},
+	["post_near_03"] = {
+		["Id"] = "post_near_03",
+		["SeaId"] = "near",
+		["Title"] = "远处的帆船",
+		["ImageId"] = "post_near_03",
+		["Description"] = "海蛙从近海带回的旅行记录。",
+		["Order"] = 8,
+	},
+	["post_near_04"] = {
+		["Id"] = "post_near_04",
+		["SeaId"] = "near",
+		["Title"] = "雨后彩虹",
+		["ImageId"] = "post_near_04",
+		["Description"] = "海蛙从近海带回的旅行记录。",
+		["Order"] = 9,
+	},
+	["post_near_05"] = {
+		["Id"] = "post_near_05",
+		["SeaId"] = "near",
+		["Title"] = "星空海面",
+		["ImageId"] = "post_near_05",
+		["Description"] = "海蛙从近海带回的旅行记录。",
+		["Order"] = 10,
+	},
+}
