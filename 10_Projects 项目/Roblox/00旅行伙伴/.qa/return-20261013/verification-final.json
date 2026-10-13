@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-13",
+  "businessVersion": 4,
+  "passed": true,
+  "changedFiles": [
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ReplicatedStorage\\Game\\Resources\\UI\\TravelBuddy\\TravelWindow.rbxmx",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\TravelDomainCheck.luau",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ReplicatedStorage\\Game\\Shared\\TravelProtocol.lua",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerStorage\\Game\\Resources\\Models\\TravelBuddy\\Frog.rbxmx",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ReplicatedStorage\\Game\\Resources\\UI\\TravelBuddy\\TravelHUD.rbxmx",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\Validate-TravelDemo.ps1",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\StarterPlayer\\StarterPlayerScripts\\Client\\Game\\Controllers\\TravelController.lua",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\TravelServiceCheck.luau",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\check_travel_ui.py",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerScriptService\\Server\\Game\\Domain\\TravelDomain.lua",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerScriptService\\Server\\Game\\Services\\TravelService.lua",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\TravelWorldCheck.luau",
+    "F:\\HunyueRoblox\\TravelBuddy\\tests\\UnitTest\\Cases\\TravelDomain_Test.lua",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\TravelNativeCheck.luau",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\Validate-ModuleBase.ps1",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerScriptService\\Server\\Game\\Services\\TravelWorldService.lua"
+  ],
+  "frameworkUnchanged": true,
+  "local": {
+    "domainTests": 38,
+    "configTests": 64,
+    "compiledScripts": 64,
+    "nativeUiAndPhoneLayout": "pass",
+    "fourPlotIsolation": "pass"
+  },
+  "studio": {
+    "onlineStates": [
+      "Voyaging",
+      "Returning",
+      "Resting",
+      "Preparing",
+      "Voyaging"
+    ],
+    "restFromEndAtSeconds": 9,
+    "unreadDoesNotBlockNextVoyage": true,
+    "offlinePaidJourneySettledOnce": true,
+    "readOnlyMarksRead": true,
+    "rejoinNoNewJourneyReward": true,
+    "companionFocusAndCameraRestore": true,
+    "obstructionAvoidance": true,
+    "tempObjectsRemoved": true,
+    "leftInPlay": true
+  },
+  "testEconomy": {
+    "sold": {
+      "item_clock": 1
+    },
+    "suppliesBoughtAndUsed": 2,
+    "normalOpenContainerReceiptsObserved": 4,
+    "currencyInjected": false,
+    "profileReset": false
+  },
+  "limits": [
+    "No offline multiple-trip catchup",
+    "No independent life activity AI",
+    "No visible sealed quality or whole-box auction",
+    "No formal art generation or upload",
+    "No new four-client live session or real-phone performance test"
+  ],
+  "desktopAutomation": "User pressed Escape; no further desktop input performed."
+}
