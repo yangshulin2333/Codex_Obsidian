@@ -1,0 +1,154 @@
+{
+  "changed_assets": [
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\Workspace\\TravelIsland.rbxmx",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerStorage\\Game\\Resources\\Models\\TravelBuddy\\HomeLv1.rbxmx",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerStorage\\Game\\Resources\\Models\\TravelBuddy\\HomeLv2.rbxmx"
+  ],
+  "new_authoring_script": [
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\build_plot_sample.luau"
+  ],
+  "business_logic_and_config_unchanged": true,
+  "physics_walk": [
+    {
+      "name": "准备区前",
+      "position": [
+        -53.99970245361328,
+        5.0923171043396,
+        -2.695969581604004
+      ],
+      "elapsed": 0.2161534999977448,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "左侧箱区入口",
+      "position": [
+        -58.2254753112793,
+        5.096319198608398,
+        -2.1078813076019287
+      ],
+      "elapsed": 0.34982480000326177,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "左侧箱区末端",
+      "position": [
+        -58.957427978515625,
+        5.096319198608398,
+        9.334795951843262
+      ],
+      "elapsed": 0.7834664000038174,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "公共步道",
+      "position": [
+        -54.513648986816406,
+        5.176245212554932,
+        15.309374809265137
+      ],
+      "elapsed": 0.5498899000012898,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "商店前",
+      "position": [
+        -23.672317504882812,
+        5.211319446563721,
+        24.793258666992188
+      ],
+      "elapsed": 2.1002396999974735,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "码头连接步道",
+      "position": [
+        -53.27167510986328,
+        5.794992923736572,
+        41.576534271240234
+      ],
+      "elapsed": 2.235167899998487,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "码头岸上操作位",
+      "position": [
+        -53.965126037597656,
+        5.796319484710693,
+        54.35730743408203
+      ],
+      "elapsed": 0.866268099998706,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "返回步道",
+      "position": [
+        -53.99810791015625,
+        5.796319007873535,
+        42.655242919921875
+      ],
+      "elapsed": 0.7827078999980586,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "返回个人区",
+      "position": [
+        -53.999942779541016,
+        5.173187732696533,
+        16.792753219604492
+      ],
+      "elapsed": 1.6332972000018344,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "右侧箱区通道",
+      "position": [
+        -49.402225494384766,
+        5.096310138702393,
+        10.546236038208008
+      ],
+      "elapsed": 0.5330306999967434,
+      "health": 100,
+      "reached": true
+    },
+    {
+      "name": "返回家门",
+      "position": [
+        -53.81464385986328,
+        5.856379508972168,
+        -5.141086578369141
+      ],
+      "elapsed": 1.1005212000018219,
+      "health": 100,
+      "reached": true
+    }
+  ],
+  "geometry": {
+    "levels_checked": [
+      1,
+      2
+    ],
+    "boxes": 6,
+    "central_walkway_studs": 6,
+    "row_clearance_studs": 4.4,
+    "public_path_clearance_studs": 1.7
+  },
+  "scene_place": {
+    "path": "F:\\HunyueRoblox\\TravelBuddy\\build\\TravelBuddy-Plot1-Whitebox.rbxlx",
+    "sha256": "3645103591447eb4d3d56afbdb08c75434e986511e5a7cbe840e1ad0bfbb6ee5"
+  },
+  "image": {
+    "path": "D:\\AI\\Codex_Obsidian\\10_Projects 项目\\Roblox\\00旅行伙伴\\assets\\白模样板_1号地块.png",
+    "sha256": "4bf2c36e89ddd76d2105a07b99c1af5aa7f3a3f0b543a912dbe4d16e5384dcf9"
+  },
+  "checks": "TravelNativeCheck, TravelWorldCheck, TravelBuildCheck, ModuleBase, ConfigTool (64 tests), RojoWorkflow, StyLua and Selene passed",
+  "studio_cleanup": "TemporaryInspection removed; Server.Main and Client.Main restored enabled; UnitTestRunner remained disabled; no business profile loaded in isolated geometry test."
+}
