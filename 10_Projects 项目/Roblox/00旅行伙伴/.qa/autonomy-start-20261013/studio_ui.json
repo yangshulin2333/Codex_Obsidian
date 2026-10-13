@@ -1,0 +1,1 @@
+{"content":[{"type":"text","text":"{\"planHeight\":100,\"infoHeight\":100,\"stationText\":\"伙伴准备桌\\n查看计划 · 行囊 · 暂缓\",\"infoText\":\"出发前暂缓必定生效，恢复后会重新等待。\\n本阶段已接入自主出发；归航收获暂按旧流程领取。\",\"planText\":\"装入补给后，伙伴会自行选择目的地与航程。\\n准备完成后自动出发；可暂缓，或收回行囊补给。\",\"orders\":{\"Info\":6,\"SecondaryActions\":4,\"Actions\":3,\"TravelActions\":5}}"}],"isError":false}

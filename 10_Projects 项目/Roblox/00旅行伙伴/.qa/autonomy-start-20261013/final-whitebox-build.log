@@ -1,0 +1,3 @@
+PLOT_SAMPLE_BUILD_OK: build/TravelBuddy-Plot1-Whitebox.rbxlx
+LAYOUT_ONLY: Lv2 home/ship, one companion, preparation station, six neutral containers, three vacant plots
+PREVIEW_CHECK_OK: 14 disabled prompts, invisible walk spawn, no scripts or player data

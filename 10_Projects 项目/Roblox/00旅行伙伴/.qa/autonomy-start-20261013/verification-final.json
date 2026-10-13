@@ -1,0 +1,209 @@
+{
+  "stage": "Saved preparation and autonomous departure",
+  "version": 3,
+  "framework_files_unchanged": 33,
+  "changed_files": {
+    "F:\\HunyueRoblox\\TravelBuddy\\design\\config\\workbooks\\TravelConfig.xlsx": "84ebff23a9aa3f85187571f0f6071bc3fd1be04625d77b468d60dad7946333e7",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\TravelNativeCheck.luau": "f71b97a9b089450c85a4de8ed967f2b3eb73c0731118d3d9caf92f777c49b46c",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ReplicatedStorage\\Game\\Resources\\UI\\TravelBuddy\\TravelWindow.rbxmx": "54e0fbceb55bb321cb4843749bb881c4b00bdc72fcabde79af2bafeb1dfc7f2d",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerScriptService\\Server\\Game\\Domain\\TravelDomain.lua": "fa441ba61d1ae347da46f5fdef9c76a2109c77b209cb5df3c47f419d3621472c",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerScriptService\\Server\\Game\\Services\\TravelService.lua": "8a95bef0c3bc399b884a25c334fc7a88ed87ddbe4b7014aa44073727bbff32a4",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerStorage\\Game\\Resources\\Models\\TravelBuddy\\ShipLv2.rbxmx": "edadce29fe8f508dd250a14811cc7b5b25dbd6692b02499aaa0974dbb1f5ea02",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\TravelServiceCheck.luau": "d17410d5937c18230bf6b69a1febe0c56804f59320204f8d651e6da1dc58e081",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\TravelWorldCheck.luau": "1904ba703364bdc8c81579c28e8731562291b65e540bb1bb2b1719a078dcb839",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerStorage\\Game\\Resources\\Models\\TravelBuddy\\ShipLv1.rbxmx": "888ec212040a4ff8f1f27c2529eae753d5224a29bf31cb3d33ec4be99655b0e8",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerScriptService\\Server\\Game\\Services\\TravelWorldService.lua": "ee81d1b50d8363f5ef8b5514581ad68a97e78c7ec3262b84a6720097d6d54fe9",
+    "F:\\HunyueRoblox\\TravelBuddy\\tests\\UnitTest\\Cases\\TravelDomain_Test.lua": "f872c72aa1648ae578bed22033b3fd5ba2ab9025474d6109ad9d42e7cda35754",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\TravelDomainCheck.luau": "a6364321f0fef1540af7a9432b6017dbe786f8e908403cff97d186126393f675",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\prepare_travel_config.py": "becbfb7388c6237f08421a89ea51fb4f533ca7a5ffba11bdfbac1909b9a45147",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\StarterPlayer\\StarterPlayerScripts\\Client\\Game\\Controllers\\TravelController.lua": "8665c94423ba0e1dc272ed29352415848d70490183c3920de937632f1f6b3053",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ReplicatedStorage\\Game\\Shared\\TravelProtocol.lua": "c8cca7b58fa8bcb0b3d19ce47911a21f88945eb8fea439c1dfb8646b0dd26662",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ReplicatedStorage\\Game\\Shared\\Config\\Generated\\TravelSettings.lua": "aa618c559bc285bf00bfcf13994d076b267c3f3d40720ba08a4d342304a268a5",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerStorage\\Game\\Resources\\Models\\TravelBuddy\\PreparationStation.rbxmx": "aac06cff79d5fb796e5c9056a788b29004413f2d0a3eb949dc52386278ab9872",
+    "F:\\HunyueRoblox\\TravelBuddy\\scripts\\game\\checks\\check_travel_ui.py": "91950bac9f605b716d3c84ea809c8ff611600969b89ba570193860062c3a874d",
+    "F:\\HunyueRoblox\\TravelBuddy\\src\\ServerScriptService\\Server\\Game\\Config\\TravelConfig.lua": "8c9af17effd9da00782d30b1def56520ad2fcda01e3b443973602cd14e90c27c"
+  },
+  "confirmed_settings": {
+    "InitialCoins": 30,
+    "InitialWood": 4,
+    "InitialSupplies": 3,
+    "SupplyPrice": 5,
+    "SupplyCost": 1,
+    "FirstJourneySeconds": 60,
+    "RestSeconds": 180,
+    "ContainerWood": 2,
+    "ItemsPerContainer": 3,
+    "ReceiptLimit": 100,
+    "HomeCapacity1": 3,
+    "HomeCapacity2": 6,
+    "MaxPlayers": 4,
+    "TickSeconds": 1,
+    "RequestCooldown": 0.2,
+    "StudioTimeScale": 0.05,
+    "ProductionTimeScale": 1,
+    "DataReadyTimeout": 30,
+    "RequestTimeout": 10,
+    "DepartureSeconds": 8,
+    "ReturnSeconds": 5,
+    "BagCapacity": 3,
+    "PrepareMinSeconds": 60,
+    "PrepareMaxSeconds": 180,
+    "FirstPrepareSeconds": 30,
+    "StudioPrepareMinSeconds": 15,
+    "StudioPrepareMaxSeconds": 30,
+    "SeaChoiceWeight_shallow": 1,
+    "SeaChoiceWeight_near": 1,
+    "ShortChoiceWeight": 1,
+    "LongChoiceWeight": 1
+  },
+  "choice_weights": "Temporary adjustable Demo defaults; equal weights, not a frozen production decision",
+  "studio_evidence": {
+    "prepare": {
+      "state": "Preparing",
+      "revision": 87,
+      "paused": false,
+      "packed": 1,
+      "warehouse": 2,
+      "now": 1791867856,
+      "uiPlan": "伙伴计划：近海 · 标准 30 分钟\n距离自主出发 29 秒",
+      "plan": {
+        "CreatedAt": 1791867856,
+        "Id": "aca91ab0-109f-4f9e-a953-61a85af26bb0",
+        "SeaId": "near",
+        "ReadyAt": 1791867885,
+        "DurationId": "near_short"
+      }
+    },
+    "pause": {
+      "state": "HomeIdle",
+      "revision": 89,
+      "paused": true,
+      "packed": 1,
+      "warehouse": 2,
+      "now": 1791867858,
+      "uiPlan": "伙伴计划：近海 · 标准 30 分钟\n已暂缓出发，等待你恢复。",
+      "plan": {
+        "DurationId": "near_short",
+        "CreatedAt": 1791867856,
+        "SeaId": "near",
+        "Id": "aca91ab0-109f-4f9e-a953-61a85af26bb0"
+      }
+    },
+    "paused_reload": {
+      "state": "HomeIdle",
+      "revision": 89,
+      "paused": true,
+      "packed": 1,
+      "version": 3,
+      "now": 1791867925,
+      "warehouse": 2,
+      "plan": {
+        "Id": "aca91ab0-109f-4f9e-a953-61a85af26bb0",
+        "CreatedAt": 1791867856,
+        "SeaId": "near",
+        "DurationId": "near_short"
+      }
+    },
+    "clear_and_repack": {
+      "before": {
+        "state": "Preparing",
+        "plan": {
+          "CreatedAt": 1791867856,
+          "Id": "aca91ab0-109f-4f9e-a953-61a85af26bb0",
+          "SeaId": "near",
+          "ReadyAt": 1791867982,
+          "DurationId": "near_short"
+        },
+        "warehouse": 2,
+        "packed": 1
+      },
+      "empty": {
+        "state": "HomeIdle",
+        "plan": {
+          "Id": "aca91ab0-109f-4f9e-a953-61a85af26bb0",
+          "CreatedAt": 1791867856,
+          "SeaId": "near",
+          "DurationId": "near_short"
+        },
+        "warehouse": 3,
+        "packed": 0
+      },
+      "uiPlan": "伙伴计划：近海 · 标准 30 分钟\n实际航程 1 分 30 秒\n距离自主出发 25 秒",
+      "repacked": {
+        "state": "Preparing",
+        "revision": 95,
+        "now": 1791867965,
+        "packed": 1,
+        "warehouse": 2,
+        "plan": {
+          "CreatedAt": 1791867856,
+          "Id": "aca91ab0-109f-4f9e-a953-61a85af26bb0",
+          "SeaId": "near",
+          "ReadyAt": 1791867990,
+          "DurationId": "near_short"
+        }
+      }
+    },
+    "preparation_reload": {
+      "state": "Preparing",
+      "revision": 95,
+      "paused": false,
+      "packed": 1,
+      "version": 3,
+      "now": 1791867972,
+      "warehouse": 2,
+      "plan": {
+        "CreatedAt": 1791867856,
+        "Id": "aca91ab0-109f-4f9e-a953-61a85af26bb0",
+        "SeaId": "near",
+        "ReadyAt": 1791867990,
+        "DurationId": "near_short"
+      }
+    },
+    "departure": {
+      "state": "Voyaging",
+      "revision": 96,
+      "now": 1791868002,
+      "packed": 0,
+      "warehouse": 2,
+      "journey": {
+        "EndAt": 1791868080,
+        "StartAt": 1791867990,
+        "Status": "Voyaging",
+        "SeaId": "near",
+        "DurationId": "near_short",
+        "Id": "5e153eb3-268e-44f2-8334-fea3bb12c7de"
+      }
+    },
+    "voyaging_reload": {
+      "state": "Voyaging",
+      "revision": 96,
+      "now": 1791868059,
+      "packed": 0,
+      "journey": {
+        "EndAt": 1791868080,
+        "StartAt": 1791867990,
+        "Status": "Voyaging",
+        "SeaId": "near",
+        "DurationId": "near_short",
+        "Id": "5e153eb3-268e-44f2-8334-fea3bb12c7de"
+      },
+      "oldDispatchDisabled": true,
+      "version": 3,
+      "warehouse": 2
+    }
+  },
+  "checks": [
+    "31 Domain cases",
+    "64 ConfigTool cases",
+    "Service/World/Native/UI",
+    "ModuleBase/RojoWorkflow",
+    "StyLua/Selene",
+    "64 scripts compile",
+    "real Studio UI and ProfileStore reload"
+  ],
+  "scope": "Wishes, automatic reward deposit and offline multiple voyages remain next stages; current ClaimReturn compatibility retained",
+  "test_asset_changes": "Two autonomous voyages consumed one packed supply each. Claimed existing returned voyages and opened one own sealed container through normal requests to test the next preparation. No profile reset, test currency injection or direct DataStore writes.",
+  "studio_final": "Play, own preparation table, Bag panel open; no temporary QA scripts retained",
+  "image": "D:\\AI\\Codex_Obsidian\\10_Projects 项目\\Roblox\\00旅行伙伴\\assets\\伙伴自主准备_Studio验证.png"
+}

@@ -1,0 +1,1 @@
+{"content":[{"type":"text","text":"{\"warehouse\":3,\"revision\":76,\"packed\":1,\"first\":false,\"boxes\":4,\"coins\":2,\"state\":\"ReturnPending\",\"version\":3,\"journey\":{\"EndAt\":1791864037,\"Status\":\"Returned\",\"SeaId\":\"shallow\",\"StartAt\":1791864007,\"Id\":\"095bca12-b160-4216-81da-2bc15f1c0815\"},\"wait\":\"RETURN_PENDING\",\"paused\":false}"}],"isError":false}
