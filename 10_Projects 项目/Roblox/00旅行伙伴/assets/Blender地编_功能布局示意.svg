@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-labelledby="title desc">
+  <title id="title">旅行伙伴岛屿功能布局示意</title>
+  <desc id="desc">四个个人区由主路连接公共港口与四座个人码头。此图仅表示功能关系，不按比例，不是最终坐标图。</desc>
+  <defs>
+    <style>
+      text { font-family: 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif; fill: #203e42; }
+      .heading { font-size: 28px; font-weight: 700; }
+      .label { font-size: 20px; font-weight: 700; }
+      .small { font-size: 16px; }
+      .tiny { font-size: 14px; }
+      .plot { fill: #eef1d9; stroke: #6f9676; stroke-width: 2; }
+      .anchor { fill: #d18a4c; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#47747a"/></marker>
+  </defs>
+  <rect width="1200" height="940" fill="#d9eff1"/>
+  <text x="52" y="51" class="heading">旅行伙伴  首轮地编功能布局</text>
+  <text x="52" y="83" class="small">功能关系示意 · 不按比例 · 地块轮廓与位置可调整 · 详细坐标以交接文档为准</text>
+  <path d="M107,161 Q160,117 296,132 Q408,105 529,132 Q650,113 778,138 Q956,108 1087,166 L1111,611 Q1114,683 1023,698 L177,698 Q91,685 86,615 Z" fill="#e7d3a2"/>
+  <path d="M127,177 Q166,144 293,156 Q408,131 526,157 Q653,136 780,164 Q959,133 1068,184 L1087,593 Q1090,645 1015,660 L180,660 Q119,651 112,595 Z" fill="#b8cfa0"/>
+  <g transform="translate(140 190)">
+    <rect class="plot" width="220" height="252" rx="18"/>
+    <text x="18" y="31" class="label">个人区 1  样板</text>
+    <rect x="18" y="49" width="107" height="57" rx="7" fill="#dbac89"/><text x="31" y="83" class="small">住宅 Lv1/2</text>
+    <rect x="138" y="49" width="64" height="57" rx="7" fill="#c5d6b6"/><text x="151" y="73" class="tiny">休息</text><text x="151" y="93" class="tiny">看书</text>
+    <rect x="67" y="124" width="88" height="35" rx="5" fill="#e8c78f"/><text x="85" y="148" class="small">准备桌</text>
+    <path d="M76 178 H146 V220 H76 Z" fill="none" stroke="#47747a" stroke-width="3" stroke-dasharray="5 4"/>
+    <text x="82" y="204" class="tiny">散步</text>
+    <g fill="#b4916a"><rect x="17" y="121" width="32" height="26" rx="3"/><rect x="17" y="158" width="32" height="26" rx="3"/><rect x="17" y="195" width="32" height="26" rx="3"/><rect x="171" y="121" width="32" height="26" rx="3"/><rect x="171" y="158" width="32" height="26" rx="3"/><rect x="171" y="195" width="32" height="26" rx="3"/></g>
+    <text x="19" y="244" class="tiny">两列六箱位 · 留出接近空间</text>
+  </g>
+  <g transform="translate(377 190)">
+    <rect class="plot" width="210" height="252" rx="18"/>
+    <text x="27" y="31" class="label">个人区 2</text>
+    <rect x="31" y="63" width="148" height="62" rx="7" fill="#dbac89"/><text x="62" y="101" class="small">住宅与准备桌</text>
+    <text x="30" y="165" class="small">六箱位 + 生活角落</text>
+    <text x="30" y="204" class="small">复用样板资源</text>
+  </g>
+  <g transform="translate(604 190)">
+    <rect class="plot" width="210" height="252" rx="18"/>
+    <text x="27" y="31" class="label">个人区 3</text>
+    <rect x="31" y="63" width="148" height="62" rx="7" fill="#dbac89"/><text x="62" y="101" class="small">住宅与准备桌</text>
+    <text x="30" y="165" class="small">六箱位 + 生活角落</text>
+    <text x="30" y="204" class="small">复用样板资源</text>
+  </g>
+  <g transform="translate(831 190)">
+    <rect class="plot" width="210" height="252" rx="18"/>
+    <text x="27" y="31" class="label">个人区 4</text>
+    <rect x="31" y="63" width="148" height="62" rx="7" fill="#dbac89"/><text x="62" y="101" class="small">住宅与准备桌</text>
+    <text x="30" y="165" class="small">六箱位 + 生活角落</text>
+    <text x="30" y="204" class="small">复用样板资源</text>
+  </g>
+  <rect x="136" y="465" width="910" height="45" rx="15" fill="#f3e9cf"/>
+  <text x="415" y="495" class="label">公共主路  连接全部个人区与港口</text>
+  <g stroke="#f3e9cf" stroke-width="20"><path d="M250 442 V465"/><path d="M482 442 V465"/><path d="M709 442 V465"/><path d="M936 442 V465"/></g>
+  <rect x="227" y="528" width="737" height="113" rx="20" fill="#e9dfc7"/>
+  <text x="246" y="554" class="small">公共港口广场</text>
+  <g>
+    <rect x="248" y="570" width="140" height="50" rx="8" fill="#a9c4aa"/><text x="271" y="602" class="label">补给商店</text>
+    <rect x="410" y="570" width="140" height="50" rx="8" fill="#8bb6ad"/><text x="432" y="602" class="label">商品收购</text>
+    <rect x="572" y="570" width="167" height="50" rx="8" fill="#d4bf8f"/><text x="594" y="602" class="small">背包 / 图鉴入口</text>
+    <rect x="761" y="570" width="179" height="50" rx="8" fill="#e7e2d7" stroke="#8c9691" stroke-dasharray="6 4"/><text x="787" y="602" class="small">拍卖仅预留</text>
+  </g>
+  <rect x="125" y="661" width="939" height="31" rx="10" fill="#c7a16e"/>
+  <text x="50" y="718" class="small">海岸与栈道</text>
+  <g fill="#d5b982" stroke="#a4875c" stroke-width="2">
+    <rect x="220" y="692" width="61" height="85" rx="5"/><rect x="451" y="692" width="61" height="85" rx="5"/><rect x="678" y="692" width="61" height="85" rx="5"/><rect x="905" y="692" width="61" height="85" rx="5"/>
+  </g>
+  <g class="tiny"><text x="231" y="733">船位1</text><text x="462" y="733">船位2</text><text x="689" y="733">船位3</text><text x="916" y="733">船位4</text></g>
+  <g stroke="#47747a" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow)">
+    <path d="M250 787 V852"/><path d="M482 787 V852"/><path d="M709 787 V852"/><path d="M936 787 V852"/>
+  </g>
+  <text x="305" y="891" class="label">近岸直线船道 → 远处淡出 → 2D 旅途观察窗</text>
+  <text x="311" y="920" class="small">玩家始终留岛 · 直线船道不摆礁石或桥 · 不制作完整海洋</text>
+</svg>
