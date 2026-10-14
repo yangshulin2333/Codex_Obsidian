@@ -5,7 +5,7 @@ status: active
 owner: mixed
 source: self
 created: 2026-06-26
-updated: 2026-10-12
+updated: 2026-10-14
 ---
 
 # Roblox MOC
@@ -19,6 +19,7 @@ updated: 2026-10-12
 
 - [[20_Areas 领域/Roblox/Xeno/README|Xeno 客户端原始归档工作流]]
 - [[20_Areas 领域/Roblox/Xeno/08_环境迁移与参数配置|Xeno 工作流换环境与参数配置]]
+- [[20_Areas 领域/Roblox/Xeno/10_原始资产分类与素材库整理工作流|已归档内容整理素材库：模型、贴图、骨架/动画、音效；保持raw，不转Luau]]
 - [[20_Areas 领域/Roblox/Xeno/06_字节码恢复与场景优化工作流|归档后的字节码恢复与静态预览优化]]
 - [[20_Areas 领域/Roblox/Xeno/07_EvoMon优化预览版案例与验收|EvoMon 优化案例与验收]]
 - [[70_LLM_Wiki 知识库/Roblox/Xeno 客户端内容归档|Xeno 归档 Wiki 入口]]

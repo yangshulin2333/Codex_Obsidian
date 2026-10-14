@@ -5,7 +5,7 @@ status: active
 owner: mixed
 source: mixed
 created: 2026-10-10
-updated: 2026-10-12
+updated: 2026-10-14
 ---
 
 # Xeno 客户端内容归档
@@ -14,6 +14,7 @@ updated: 2026-10-12
 
 - [[../../20_Areas 领域/Roblox/Xeno/README|工作流入口]]。
 - [[../../20_Areas 领域/Roblox/Xeno/08_环境迁移与参数配置|换环境与参数配置]]。
+- [[../../20_Areas 领域/Roblox/Xeno/10_原始资产分类与素材库整理工作流|原始资产分类、最大组装模型包与素材库索引]]。
 - [[../../20_Areas 领域/Roblox/Xeno/09_历史案例资源索引|历史资源角色与相对路径索引]]。
 - [[../../20_Areas 领域/Roblox/Xeno/01_Xeno客户端内容归档通用工作流|下载、真实执行验证、清单、导出、资源下载、Terrain、Studio和ZIP全流程]]。
 - [[../../20_Areas 领域/Roblox/Xeno/02_快速执行与验收清单|快速执行清单]]。
@@ -23,6 +24,8 @@ updated: 2026-10-12
 - [[../../20_Areas 领域/Roblox/Xeno/07_EvoMon优化预览版案例与验收|EvoMon 优化案例与验收]]。
 
 默认先完成原始归档：原始场景、可读取 Source、bytecode、已取得资源及最终缺失清单。Luau 恢复、原生格式转换、地形恢复和预览仅在明确请求后对副本执行。共享文档不绑定机器路径；本机角色映射与本次运行参数放在 Vault 外，脚本入口、版本和游戏身份来自本次验证。
+
+明确要求素材库时，独立选择 `organize_assets`：对已归档输入提取最大不重叠组装包，并索引所有nested模型；网格/组装模型、rig/实际关键帧动画分开，SHA去重保留贴图的PBR/UI/particle用途与缺失依赖。原raw与bytecode保持不变，不转Luau、不自动Studio/Play。正式原包的受控metadata可按相同相对路径在validation目录定位并核对SHA；本机路径通过CLI显式传入，素材库以相对HTML/JSON/CSV索引迁移。
 
 核心判断：以当前 Place、Universe 和实测地图/楼层界定范围；成功通知需要真实日志验证；保存 bytecode 不代表恢复源码；附件下载与原生场景另行验收；不同场景分开交付。未加载区域、服务端逻辑和权限受限内容保留缺失说明。
 

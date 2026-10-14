@@ -237,6 +237,18 @@ def check_document_links(errors):
     checked = 0
     for page in sorted(WORKFLOW_ROOT.glob("*.md")):
         text = page.read_text(encoding="utf-8-sig")
+        fence = None
+        for line_number, line in enumerate(text.splitlines(), 1):
+            match = re.match(r"^\s{0,3}(`{3,}|~{3,})(.*)$", line)
+            if not match:
+                continue
+            delimiter = match[1]
+            if fence is None:
+                fence = (delimiter[0], len(delimiter), line_number)
+            elif delimiter[0] == fence[0] and len(delimiter) >= fence[1] and not match[2].strip():
+                fence = None
+        if fence is not None:
+            errors.append(f"Unclosed Markdown fence: {page.name}:{fence[2]}")
         if MACHINE_PATH.search(text):
             errors.append(f"Machine absolute path remains in shared document: {page.name}")
         targets = re.findall(r"\[\[([^\]|]+)(?:\|[^\]]*)?\]\]", text)
@@ -268,6 +280,46 @@ def check_document_links(errors):
     return checked, external
 
 
+def check_asset_library_template(errors):
+    path = WORKFLOW_ROOT / "asset-library.config.example.json"
+    if not path.is_file():
+        return None
+    template = read_json(path)
+    expected_keys = {"schemaVersion", "mode", "environment", "input", "policy", "outputs", "rights"}
+    if not isinstance(template, dict) or set(template) != expected_keys:
+        errors.append("Asset library template has missing/unknown top-level fields")
+        return None
+    if template["schemaVersion"] != 1 or template["mode"] != "organize_assets":
+        errors.append("Asset library template must have schemaVersion=1 and mode=organize_assets")
+    environment = template["environment"]
+    if set(environment) != {"pathBase", "paths"} or environment["pathBase"] != "localConfigDirectory":
+        errors.append("Asset library local paths must use localConfigDirectory")
+    if set(environment["paths"]) != {"archive", "output", "luneExecutable"} or any(v is not None for v in environment["paths"].values()):
+        errors.append("Asset library shared template must leave machine paths null")
+    expected_inputs = {"archiveArtifactId", "expectedArchiveSha256", "sceneRelativePath", "assetManifestRelativePath", "scriptsIndexRelativePath"}
+    if set(template["input"]) != expected_inputs or any(v is not None for v in template["input"].values()):
+        errors.append("Asset library template must leave current input identities/paths null")
+    expected_policy = {
+        "rawReadOnly": True, "convertToLuau": False, "executeGameScripts": False,
+        "launchStudio": False, "play": False, "deduplicateBySha256": True,
+        "modelExportMode": "maximal_non_overlapping", "indexAllNestedModels": True,
+        "parseAnimationContainers": True, "preserveUsageRoles": True, "preserveMissingDependencies": True,
+    }
+    if template["policy"] != expected_policy:
+        errors.append("Asset library template violates read-only/raw-preservation/classification defaults")
+    outputs = template["outputs"]
+    if set(outputs) != {"pathsRelativeToLibraryRoot", "provenanceRelativeDir", "validationRelativeDir"} or outputs["pathsRelativeToLibraryRoot"] is not True:
+        errors.append("Asset library outputs must use relative portable paths")
+    for key in ("provenanceRelativeDir", "validationRelativeDir"):
+        try:
+            safe_relative(outputs[key])
+        except (ValueError, KeyError) as exc:
+            errors.append(f"Asset library {key}: {exc}")
+    if template["rights"] != {"assetLicenseStatus": "not-established", "preserveToolLicenseRecords": True}:
+        errors.append("Asset library template cannot assume a game asset license")
+    return {"mode": template["mode"], "machinePathDefaults": "null", "sourceConversion": False, "modelExportMode": expected_policy["modelExportMode"]}
+
+
 def check_template():
     errors = []
     template = read_json(WORKFLOW_ROOT / "config.example.json")
@@ -275,11 +327,13 @@ def check_template():
     template = merge_known(template, template)
     errors.extend(check_structure(template, template=True))
     artifacts = load_index(WORKFLOW_ROOT / "history-artifacts.json", errors)
+    asset_library_template = check_asset_library_template(errors)
     checked, external = check_document_links(errors)
     return {
         "command": "check-template", "scope": "read-only static workflow checks; no capture/tool execution",
         "status": "failed" if errors else "passed", "defaultMode": template["run"]["mode"],
         "historicalArtifactCount": len(artifacts), "internalLinksChecked": checked,
+        "assetLibraryTemplate": asset_library_template,
         "externalVaultDependencies": external, "errors": errors,
     }
 
