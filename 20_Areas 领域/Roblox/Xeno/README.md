@@ -5,7 +5,7 @@ status: active
 owner: mixed
 source: mixed
 created: 2026-10-12
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 
 # Xeno 客户端原始归档工作流
@@ -49,6 +49,7 @@ updated: 2026-10-14
 ## 后续可选阶段与历史案例
 
 - [[10_原始资产分类与素材库整理工作流|organize_assets：模型、贴图、骨架/动画、音效素材库与相对索引]]。明确要求素材整理才开启，独立 `asset-library.config.example.json` 保存本机参数，CLI显式传入；原raw保持不变，不转Luau、不自动Play。先执行分类器 `--check-inputs-only` 校验正式原ZIP解压后的metadata/内容hash；素材库从 `index.html` 离线查找，JSON/CSV与全部nested模型索引保留来源关系。原件保留、结构及样本解码证据随库保存于 `validation/`；它们不证明Studio、播放或动画映射已通过。
+- [[11_Demo素材与HUD试验工作流|Demo：独立试验场中的模型展示、主 HUD 与可操作背包]]。明确授权后选择来源，保留原生场景基线；模板 UI 与运行态 HUD 分开，交互使用新写演示代码。桥地址、源目录、派生目录和 Studio 目标来自本机参数。模型/UI 导入、Play、撤回与再次导入分别保留实际证据；包结构/hash 校验不代替运行效果。
 - [[06_字节码恢复与场景优化工作流|阶段 1：在副本中恢复 Luau 参考源码；阶段 2：独立静态预览]]，必须明确请求后开启。
 - [[04_成功案例与参考实现|归档历史案例]]、[[07_EvoMon优化预览版案例与验收|EvoMon 恢复与预览历史案例]]。日期、游戏 ID、版本和数量均为当时案例证据，不是默认参数。
 - [[09_历史案例资源索引|历史 artifactId 与根内相对路径]]。换机只变更本地 `historicalEvidenceRoot` 映射；按记录的 hash 核对真实证据。笔记中的索引不是工具文件副本。
