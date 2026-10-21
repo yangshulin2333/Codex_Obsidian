@@ -5,12 +5,14 @@ status: active
 owner: mixed
 source: mixed
 created: 2026-10-10
-updated: 2026-10-15
+updated: 2026-10-21
 ---
 
 # Xeno 客户端内容归档
 
 用户指定的主要工作流保存在 `20_Areas 领域/Roblox/Xeno`，本页只保留检索入口，避免维护两份完整流程。
+
+- [[../../20_Areas 领域/Roblox/Xeno/00_通用工作流_AI执行入口|跨 AI 统一入口：任务提示、能力适配、完整阶段和断点交接]]。适用于不同 AI 的本地执行或用户协助执行，不依赖 Codex 专属工具或旧聊天；现有配置只读检查与真实采集/下载分别验收。
 
 - [[../../20_Areas 领域/Roblox/Xeno/README|工作流入口]]。
 - [[../../20_Areas 领域/Roblox/Xeno/08_环境迁移与参数配置|换环境与参数配置]]。

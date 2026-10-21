@@ -5,7 +5,7 @@ status: active
 owner: mixed
 source: self
 created: 2026-06-26
-updated: 2026-10-14
+updated: 2026-10-21
 ---
 
 # Roblox MOC
@@ -17,6 +17,7 @@ updated: 2026-10-14
 
 ## 快速入口
 
+- [[20_Areas 领域/Roblox/Xeno/00_通用工作流_AI执行入口|Roblox 归档跨 AI 工作流：给 DeepSeek、Claude 或其他 AI 接手]]
 - [[20_Areas 领域/Roblox/Xeno/README|Xeno 客户端原始归档工作流]]
 - [[20_Areas 领域/Roblox/Xeno/08_环境迁移与参数配置|Xeno 工作流换环境与参数配置]]
 - [[20_Areas 领域/Roblox/Xeno/10_原始资产分类与素材库整理工作流|已归档内容整理素材库：模型、贴图、骨架/动画、音效；保持raw，不转Luau]]
